@@ -11,7 +11,7 @@ const Navbar = () => {
     <nav className="bg-[#ffffff] p-4">
       <div className="max-w-7xl mx-auto flex  lg:justify-between items-center">
         <div 
-        className={`text-[#000000] ml-[21px] lg:ml-[64px] text-[15px] lg:text-[30px]   md:hidden font-bold ${
+        className={`text-[#000000] ml-[21px] lg:ml-[64px] text-[15px] lg:text-[30px]   lg:hidden font-bold ${
             isOpen ? "hidden" : "block"
           }`}
         >
@@ -37,7 +37,7 @@ const Navbar = () => {
         <ul
           className={`lg:flex  space-x-[0px]  md:space-x-[50px] ${isOpen ? "block" : "hidden"} mt-4  md:ml-[30px]`}
         >
-          <li className="flex gap-2 items-baseline  md:justify-center">
+          <li className="flex gap-2 items-baseline   md:ml-12 lg:ml-0  lg:justify-center">
             <a
               href="#home"
               className="text-[#BF9BDF] lg:text-[30px] text-[20px] font-semibold hover:text-[#722174] hover:underline"
