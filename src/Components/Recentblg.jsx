@@ -1,57 +1,77 @@
-import AppLayout from "./AppLayout";
+// import AppLayout from "./AppLayout";
 import slidesData from "./Mock/Blog";
-import React, { useRef, useState } from 'react';
-// Import Swiper React components
-import { Swiper, SwiperSlide } from 'swiper/react';
+import { Swiper, SwiperSlide } from "swiper/react";
 
-// Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/navigation';
-// import required modules
-import { Navigation } from 'swiper/modules';
+import "swiper/css";
+import "swiper/css/navigation";
 
-const Recentblg = () => {
+import { Navigation } from "swiper/modules";
+import AppLayout from "./AppLayout";
+
+const RecentBlog = () => {
   return (
     <AppLayout>
-      <div className=" my-4 ">
-        <h1 className="text-center font-bold text-[40px] text-[#000] tracking-[1px] sm:tracking-[2px]  font-serif">
-          Our Recent Blog's
-        </h1>
+    <div className="my-4 mb-8 pl-4 mx-auto">
+      <h1 className="text-center font-bold text-4xl text-[#000] tracking-1 sm:tracking-2 font-serif mb-8">
+        Our Recent Blogs
+      </h1>
 
-        <Swiper navigation={true} modules={[Navigation]} className="mySwiper">
+      <Swiper
+        breakpoints={{
+          340: {
+            slidesPerView: 1,
+            spaceBetween: 0,
+          },
+          540: {
+            slidesPerView: 2,
+            spaceBetween: 5,
+          },
+          700: {
+            slidesPerView: 2,
+            spaceBetween: 15,
+          },
+          900: {
+            slidesPerView: 4,
+            spaceBetween: 5,
+          },
+         
+        }}
+        modules={[Navigation]}
+        navigation
+        className="mySwiper"
+      >
+        
           {slidesData.map((slide, index) => (
             <SwiperSlide key={index}>
-              <div className="w-[300px] rounded-md border shadow-xl">
+              <div className="w-72 rounded-md border shadow-xl gap-2  bg-[#EAEAEA] mx-auto">
                 <img
                   src={slide.imageSrc}
                   alt="Laptop"
-                  className="h-[200px] w-full rounded-t-md object-cover"
+                  className="h-48 w-full sm:w-[85%]lg:w-[100%] rounded-t-md object-cover"
                 />
                 <div className="py-4 pb-10 px-2">
-                  <div className="flex gap-[20%] pb-1">
-                    <p className="text-[10px] font-extralight">{slide.date}</p>
-                    <p className="text-[10px] font-extralight">
-                      {slide.category}
-                    </p>
+                  <div className="flex gap-12 pb-1">
+                    <p className="text-xs font-light ">{slide.date}</p>
+                    <p className="text-xs font-light">{slide.category}</p>
                   </div>
-                  <h1 className="inline-flex items-center text-lg font-bold tracking-[0.5px]">
+                  <h1 className="text-lg font-bold tracking-0.5 cursor-pointer">
                     {slide.title}
                   </h1>
-                  <p className="mt-3 text-sm text-gray-600 tracking-[.5px] leading-[24px]">
+                  <p className="mt-3 text-sm text-gray-600 tracking-0.5 leading-6">
                     {slide.description}
                   </p>
                 </div>
               </div>
             </SwiperSlide>
           ))}
-        </Swiper>
-      </div>
+       
+      </Swiper>
+    </div>
     </AppLayout>
   );
 };
 
-export default Recentblg;
-
+export default RecentBlog;
 
 // <div className=" flex gap-4 mt-6">
 // {data.map((item, index) => (

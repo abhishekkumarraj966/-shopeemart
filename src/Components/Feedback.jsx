@@ -1,11 +1,19 @@
 import React from "react";
 import AppLayout from "./AppLayout";
 import star from "./assites/Star.svg";
+import Feedbackmock from "./Mock/Feedbackmock";
+import { Swiper, SwiperSlide } from "swiper/react";
+
+import "swiper/css";
+import "swiper/css/navigation";
+
+import { Navigation } from "swiper/modules";
+
 const Feedback = () => {
   return (
     <div className="">
       <AppLayout>
-        <div className="sm:py-10  py-8 sm:pt-20 bg-[#352B3D] mt-4 rounded-xl">
+        <div className="sm:py-10  py-8 sm:pt-20 bg-[#352B3D] mt-4 rounded-xl  my-6">
           <div className="grid grid-cols-1 sm:grid-cols-2 mt-4 ">
             <div className=" p-4 ">
               <div className="">
@@ -54,131 +62,52 @@ const Feedback = () => {
             </div>
           </div>
         </div>
-
-        <div className=" mt-16 my-6 flex  py-4  sm:justify-between justify-center md:justify-space flex-wrap mx-auto">
-          <div className="mt-2 my-2  h-[200px] w-[350px]  sm:w-[380px] bg-[#352B3D] text-[#e9e9e9] rounded-xl">
-            <h1 className=" pt-2 px-3  text-[15px] font-sans">
-              I was very impressed with the customer service that I received
-              from your company. Everyone was friendly and helpful, and they
-              went out of their way to make sure that I was happy with my new
-              website.
-            </h1>
-            <div className="pt-4 pl-[170px]">
-              <div className="flex gap-0.5">
-                <img src={star} alt="" />
-                <img src={star} alt="" />
-                <img src={star} alt="" />
-                <img src={star} alt="" />
-                <img src={star} alt="" />
+        <Swiper
+          breakpoints={{
+            340: {
+              slidesPerView: 1,
+              spaceBetween: 0,
+            },
+            540: {
+              slidesPerView: 2,
+              spaceBetween: 5,
+            },
+            750: {
+              slidesPerView: 2,
+              spaceBetween: 15,
+            },
+            770: {
+              slidesPerView: 3,
+              spaceBetween: 15,
+            },
+          }}
+          modules={[Navigation]}
+          navigation
+          className="mySwiper"
+        >
+          {Feedbackmock.map((item, index) => (
+            <SwiperSlide key={index}>
+              <div className="mt-2 my-2 h-[210px] w-[300px] sm:w-[345px] lg:w-[380px] bg-[#352B3D] text-[#e9e9e9] rounded-xl mx-auto">
+                <h1 className="pt-2 px-3 text-[15px] font-sans">
+                  {item.content}
+                </h1>
+                <div className="sm:pt-4 pt-[-8px] sm:pl-[170px] pl-[120px]">
+                  <div className="flex gap-0.5">
+                    <img src={star} alt="" />
+                    <img src={star} alt="" />
+                    <img src={star} alt="" />
+                    <img src={star} alt="" />
+                    <img src={star} alt="" />
+                  </div>
+                  <h1 className="text-[16px] font-semibold sm:pl-10 pl-6 pb-2">
+                    -{item.author}
+                  </h1>
+                </div>
               </div>
-              <h1 className="text-[16px] font-semibold pl-10">
-                -Deepak Khurana
-              </h1>
-            </div>
-          </div>
-
-          <div className="mt-2 my-2  h-[200px] w-[350px]  sm:w-[380px] bg-[#352B3D] text-[#e9e9e9] rounded-xl">
-            <h1 className=" pt-2 px-3  text-[15px] font-sans">
-              I was very impressed with the customer service that I received
-              from your company. Everyone was friendly and helpful, and they
-              went out of their way to make sure that I was happy with my new
-              website.
-            </h1>
-            <div className="pt-4 pl-[170px]">
-              <div className="flex gap-0.5">
-                <img src={star} alt="" />
-                <img src={star} alt="" />
-                <img src={star} alt="" />
-                <img src={star} alt="" />
-                <img src={star} alt="" />
-              </div>
-              <h1 className="text-[16px] font-semibold pl-10">
-                -Deepak Khurana
-              </h1>
-            </div>
-          </div>
-          <div className="mt-2 my-2  h-[200px] w-[350px]  sm:w-[380px] bg-[#352B3D] text-[#e9e9e9] rounded-xl">
-            <h1 className=" pt-2 px-3  text-[15px] font-sans">
-              I was very impressed with the customer service that I received
-              from your company. Everyone was friendly and helpful, and they
-              went out of their way to make sure that I was happy with my new
-              website.
-            </h1>
-            <div className="pt-4 pl-[170px]">
-              <div className="flex gap-0.5">
-                <img src={star} alt="" />
-                <img src={star} alt="" />
-                <img src={star} alt="" />
-                <img src={star} alt="" />
-                <img src={star} alt="" />
-              </div>
-              <h1 className="text-[16px] font-semibold pl-10">
-                -Deepak Khurana
-              </h1>
-            </div>
-          </div>
-          <div className="mt-2 my-2  h-[200px] w-[350px]  sm:w-[380px] bg-[#352B3D] text-[#e9e9e9] rounded-xl">
-            <h1 className=" pt-2 px-3  text-[15px] font-sans">
-              I was very impressed with the customer service that I received
-              from your company. Everyone was friendly and helpful, and they
-              went out of their way to make sure that I was happy with my new
-              website.
-            </h1>
-            <div className="pt-4 pl-[170px]">
-              <div className="flex gap-0.5">
-                <img src={star} alt="" />
-                <img src={star} alt="" />
-                <img src={star} alt="" />
-                <img src={star} alt="" />
-                <img src={star} alt="" />
-              </div>
-              <h1 className="text-[16px] font-semibold pl-10">
-                -Deepak Khurana
-              </h1>
-            </div>
-          </div>
-          <div className="mt-2 my-2  h-[200px] w-[350px]  sm:w-[380px] bg-[#352B3D] text-[#e9e9e9] rounded-xl">
-            <h1 className=" pt-2 px-3  text-[15px] font-sans">
-              I was very impressed with the customer service that I received
-              from your company. Everyone was friendly and helpful, and they
-              went out of their way to make sure that I was happy with my new
-              website.
-            </h1>
-            <div className="pt-4 pl-[170px]">
-              <div className="flex gap-0.5">
-                <img src={star} alt="" />
-                <img src={star} alt="" />
-                <img src={star} alt="" />
-                <img src={star} alt="" />
-                <img src={star} alt="" />
-              </div>
-              <h1 className="text-[16px] font-semibold pl-10">
-                -Deepak Khurana
-              </h1>
-            </div>
-          </div>
-          <div className="mt-2 my-2  h-[200px] w-[350px]  sm:w-[380px] bg-[#352B3D] text-[#e9e9e9] rounded-xl">
-            <h1 className=" pt-2 px-3  text-[15px] font-sans">
-              I was very impressed with the customer service that I received
-              from your company. Everyone was friendly and helpful, and they
-              went out of their way to make sure that I was happy with my new
-              website.
-            </h1>
-            <div className="pt-4 pl-[170px]">
-              <div className="flex gap-0.5">
-                <img src={star} alt="" />
-                <img src={star} alt="" />
-                <img src={star} alt="" />
-                <img src={star} alt="" />
-                <img src={star} alt="" />
-              </div>
-              <h1 className="text-[16px] font-semibold pl-10">
-                -Deepak Khurana
-              </h1>
-            </div>
-          </div>
-          
-        </div>
+            </SwiperSlide>
+          ))}
+        </Swiper>
+        
       </AppLayout>
     </div>
   );
