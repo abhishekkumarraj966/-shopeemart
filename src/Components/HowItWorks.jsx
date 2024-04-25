@@ -14,6 +14,7 @@ const HowItWorks = () => {
         </h1>
         <div className="flex flex-col ">
           <div className=" flex justify-start">
+            {/* image which you download is not perfect size fix it size first */}
             <div>
             <img src={img1} alt="" className="w-[800px] h-[900px]" />
             </div>
@@ -28,6 +29,7 @@ const HowItWorks = () => {
             <div>
             <img src={img1} alt="" className="w-[800px] h-[900px]" />
             </div>
+            {/* see what you can do you can put this div after h1 tag and then use position fix there size  */}
             <div className=" absolute left-[300px]">
             <img src={arrow} alt="" className="w-[800px] h-[900px]" />
             </div>
