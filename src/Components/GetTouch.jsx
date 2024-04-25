@@ -4,7 +4,7 @@ import AppLayout from "./AppLayout";
 const GetTouch = () => {
   return (
     <AppLayout>
-      <div className="sm:py-10  py-8 sm:pt-20 bg-[#352B3D] mt-4 rounded-xl  my-6">
+      <div className="sm:py-10  py-8 sm:pt-20 bg-[#352B3D] mt-4 sm:rounded-xl  my-6">
         <div className="grid grid-cols-1 sm:grid-cols-2 ">
           <div className=" p-4 ">
             <div className=" ">

@@ -13,7 +13,7 @@ const Feedback = () => {
   return (
     <div className="">
       <AppLayout>
-        <div className="sm:py-10  py-8 sm:pt-20 bg-[#352B3D] mt-4 rounded-xl  my-6">
+        <div className="sm:py-10  py-8 sm:pt-20 bg-[#352B3D] mt-4 sm:rounded-xl  my-6">
           <div className="grid grid-cols-1 sm:grid-cols-2 mt-4 ">
             <div className=" p-4 ">
               <div className="">
@@ -87,7 +87,7 @@ const Feedback = () => {
         >
           {Feedbackmock.map((item, index) => (
             <SwiperSlide key={index}>
-              <div className="mt-2 my-2 h-[210px] w-[300px] sm:w-[345px] lg:w-[380px] bg-[#352B3D] text-[#e9e9e9] rounded-xl mx-auto">
+              <div className="mt-2 my-2 h-[210px] w-[350px] sm:w-[345px] lg:w-[380px] bg-[#352B3D] text-[#e9e9e9] rounded-xl mx-auto">
                 <h1 className="pt-2 px-3 text-[15px] font-sans">
                   {item.content}
                 </h1>

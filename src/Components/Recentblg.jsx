@@ -11,7 +11,7 @@ import AppLayout from "./AppLayout";
 const RecentBlog = () => {
   return (
     <AppLayout>
-    <div className="my-4 mb-8 pl-4 mx-auto">
+    <div className="my-4 mb-8  mx-auto">
       <h1 className="text-center font-bold text-4xl text-[#000] tracking-1 sm:tracking-2 font-serif mb-8">
         Our Recent Blogs
       </h1>
@@ -43,11 +43,11 @@ const RecentBlog = () => {
         
           {slidesData.map((slide, index) => (
             <SwiperSlide key={index}>
-              <div className="w-72 rounded-md border shadow-xl gap-2  bg-[#EAEAEA] mx-auto">
+              <div className="w-[320px] lg:w-[280px] rounded-md border shadow-xl gap-2  bg-[#EAEAEA] mx-auto">
                 <img
                   src={slide.imageSrc}
                   alt="Laptop"
-                  className="h-48 w-full sm:w-[85%]lg:w-[100%] rounded-t-md object-cover"
+                  className="h-48 w-full sm:w-[100%] lg:w-[100%] rounded-t-md object-cover"
                 />
                 <div className="py-4 pb-10 px-2">
                   <div className="flex gap-12 pb-1">
