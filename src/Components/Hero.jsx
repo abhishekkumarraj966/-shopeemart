@@ -26,8 +26,8 @@ const Hero = () => {
             <section className="flex py-0.5">
               <input
                 type="search"
-                placeholder="Enter product name"
-                className="py-1 lg:py-2 border-2 rounded-2xl  pl-1   lg:w-[450px] w-[120px] sm:w-[350px] "
+                placeholder="Enter product Product"
+                className="py-1 lg:py-2  rounded-2xl  pl-1   lg:w-[450px] w-[120px] sm:w-[350px] "
               />
               <button className="md:pt-2 pt-1">
                 <BiSearch className="  md:h-[30px] md:w-[35px]  sm:h-[20px] sm:w-[25px]" />
