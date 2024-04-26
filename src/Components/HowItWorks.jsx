@@ -16,18 +16,18 @@ const HowItWorks = () => {
           <div className=" flex justify-start">
             {/* image which you download is not perfect size fix it size first */}
             <div>
-            <img src={img1} alt="" className="w-[800px] h-[900px]" />
+            <img src={img1} alt="" className="w-[800px] h-[900px] mt-[-200px]" />
             </div>
             <div>
-            <img src={arrow} alt="" className="w-[800px] h-[900px]" />
+            <img src={arrow} alt="" className="w-[400px] h-[700px] mt-[100px] pr-[100px] "  />
             </div>
           </div>
           <div className=" flex justify-between">
             <div className=" self-center">
-            <img src={img2} alt="" className="w-[400px] h-[500px]" />
+            <img src={img2} alt="" className="w-[300px] h-[200px] mt-[-600px] ml-[50px]" />
             </div>
             <div>
-            <img src={img1} alt="" className="w-[800px] h-[900px]" />
+            <img src={img1} alt="" className="w-[800px] h-[900px] mt-[-490px]" />
             </div>
             {/* see what you can do you can put this div after h1 tag and then use position fix there size  */}
             <div className=" absolute left-[300px]">

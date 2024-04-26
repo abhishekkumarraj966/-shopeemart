@@ -45,7 +45,7 @@ const Navbar = () => {
           <div className="h-16 flex justify-between z-20 text-white lg:py-5 px-[20px] py-4 ">
             <div className="flex items-center flex-1">
               <a href="https://adsp-temp1-pro.vercel.app/">
-                <span className="text-3xl font-bold">Fashionista</span>
+                <span className="text-3xl font-bold">Bizzata</span>
                 {/* <img src="/" alt="comLogo" /> */}
               </a>
             </div>
