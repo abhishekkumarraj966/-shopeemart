@@ -5,7 +5,7 @@ import Feedback from "./Components/Feedback";
 import Footer from "./Components/Footer";
 import GetTouch from "./Components/GetTouch";
 import Hero from "./Components/Hero";
-// import HowItWorks from "./Components/HowItWorks";
+import HowItWorks from "./Components/HowItWorks";
 import Navbar from "./Components/Navbar";
 import Pricing from "./Components/Pricing";
 import Recentblg from "./Components/Recentblg";
@@ -20,7 +20,7 @@ function App() {
       <Customberp />
       <Shopymart />
       <Category />
-      {/* <HowItWorks/> */}
+      <HowItWorks/>
       <Recentblg />
       <Pricing />
       <Feedback />

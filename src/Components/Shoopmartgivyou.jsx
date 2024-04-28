@@ -27,11 +27,11 @@ const Shoopmartgivyou = () => {
               spaceBetween: 5,
             },
             750: {
-              slidesPerView: 4,
+              slidesPerView: 3,
               spaceBetween: 15,
             },
             770: {
-              slidesPerView: 5,
+              slidesPerView: 4,
               spaceBetween: 10,
             },
           }}
@@ -52,7 +52,7 @@ const Shoopmartgivyou = () => {
             {slidesData.map((slide) => (
               <SwiperSlide key={slide.id}>
                 <div className="flex gap-4 pb-10">
-                  <div className="h-[100px] sm:w-[200px] w-[320px] mx-auto shadow-md flex gap-1">
+                  <div className="h-[100px] sm:w-[300px] w-[320px] mx-auto shadow-md flex gap-1">
                     <div className="pt-1">
                       <img src={card} alt="" />
                     </div>

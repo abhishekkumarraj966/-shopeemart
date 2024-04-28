@@ -7,7 +7,7 @@ const Pricing = () => {
       <AppLayout>
         <div className="">
           <h1 className=" text-center font-semibold   text-[38px] sm:text-[50px] pt-10  pb-2 text-white">
-            Our <span className="text-[#FC7044]">Inaugural Pricing</span>
+            Our <span className="text-[#722174]">Inaugural Pricing</span>
           </h1>
           <p className=" font-semibold  text-center pb-14 text-[20px] mx-2 text-white">
             No additional costs. Pay a fixed yearly fee we handle everything for
@@ -25,7 +25,7 @@ const Pricing = () => {
                 <h2 className="text-[45px] sm:text-[30px] font-bold">
                   <del>&#8377;4500</del>
                 </h2>
-                <h3 className=" font-bold text-[70px] sm:text-[40px] tracking-[1px] leading-10 text-[#FC7044]">
+                <h3 className=" font-bold text-[70px] sm:text-[40px] tracking-[1px] leading-10 text-[#722174]">
                   {" "}
                   &#8377;2900
                 </h3>
@@ -36,7 +36,7 @@ const Pricing = () => {
               </p>
               <hr className=" mt-6  lg:w-[350px] sm:w-[180px] border border-dashed" />
               <p className="text-center  pt-4 mb-[-10px]  text-[20px] sm:text-[15px] lg:text-[18px]">
-                VyaparifySite
+                Bizzata
               </p>
               <hr className=" mt-6  lg:w-[350px] sm:w-[180px] border border-dashed" />
               <p className="text-center  pt-4 mb-[-10px]  text-[20px] sm:text-[15px] lg:text-[18px]">
@@ -81,7 +81,7 @@ const Pricing = () => {
               </p>
               <div className="my-6  mx-6">
                 <a href="">
-                <button class=" bg-[#fc7044] w-full   font-bold py-2 px-4 rounded">
+                <button class=" bg-[#722174] w-full   font-bold py-2 px-4 rounded">
                   Button
                 </button>
                 </a>
@@ -99,7 +99,7 @@ const Pricing = () => {
                 <h2 className="text-[45px] sm:text-[30px] font-bold">
                   <del>&#8377;4500</del>
                 </h2>
-                <h3 className=" font-bold text-[70px] sm:text-[40px] tracking-[1px] leading-10 text-[#FC7044]">
+                <h3 className=" font-bold text-[70px] sm:text-[40px] tracking-[1px] leading-10 text-[#722174]">
                   {" "}
                   &#8377;2900
                 </h3>
@@ -110,7 +110,7 @@ const Pricing = () => {
               </p>
               <hr className=" mt-6  lg:w-[350px] sm:w-[180px] border border-dashed" />
               <p className="text-center  pt-4 mb-[-10px]  text-[20px] sm:text-[15px] lg:text-[18px]">
-                VyaparifySite
+              Bizzata
               </p>
               <hr className=" mt-6  lg:w-[350px] sm:w-[180px] border border-dashed" />
               <p className="text-center  pt-4 mb-[-10px]  text-[20px] sm:text-[15px] lg:text-[18px]">
@@ -155,7 +155,7 @@ const Pricing = () => {
               </p>
               <div className="my-6  mx-6">
                 <a href="">
-                <button class=" bg-[#fc7044] w-full   font-bold py-2 px-4 rounded">
+                <button class=" bg-[#722174] w-full   font-bold py-2 px-4 rounded">
                   Button
                 </button>
                 </a>
@@ -173,7 +173,7 @@ const Pricing = () => {
                 <h2 className="text-[45px] sm:text-[30px] font-bold">
                   <del>&#8377;4500</del>
                 </h2>
-                <h3 className=" font-bold text-[70px] sm:text-[40px] tracking-[1px] leading-10 text-[#FC7044]">
+                <h3 className=" font-bold text-[70px] sm:text-[40px] tracking-[1px] leading-10 text-[#722174]">
                   {" "}
                   &#8377;2900
                 </h3>
@@ -184,7 +184,7 @@ const Pricing = () => {
               </p>
               <hr className=" mt-6  lg:w-[350px] sm:w-[180px] border border-dashed" />
               <p className="text-center  pt-4 mb-[-10px]  text-[20px] sm:text-[15px] lg:text-[18px]">
-                VyaparifySite
+              Bizzata
               </p>
               <hr className=" mt-6  lg:w-[350px] sm:w-[180px] border border-dashed" />
               <p className="text-center  pt-4 mb-[-10px]  text-[20px] sm:text-[15px] lg:text-[18px]">
@@ -224,12 +224,10 @@ const Pricing = () => {
                 3 AI Generated Reels (No Customization)
               </p>
               <hr className=" mt-6  lg:w-[350px] sm:w-[180px] border border-dashed " />
-              <p className="text-center  pt-4 mb-[-10px] pb-2 text-[20px] sm:text-[15px] lg:text-[18px]">
-                25 AI Generatied Post (No Customization)
-              </p>
+              
               <div className="my-6  mx-6">
                 <a href="">
-                <button class=" bg-[#fc7044] w-full   font-bold py-2 px-4 rounded">
+                <button class=" bg-[#722174] w-full   font-bold py-2 px-4 rounded">
                   Button
                 </button>
                 </a>
