@@ -27,7 +27,7 @@ const Hero = () => {
               <input
                 type="search"
                 placeholder="Enter product Product"
-                className="py-1 lg:py-2  rounded-2xl  pl-1   lg:w-[450px] w-[120px] sm:w-[350px] "
+                className="py-1 lg:py-3   rounded-2xl  pl-1   lg:w-[450px] w-[150px] sm:w-[310px] "
               />
               <button className="md:pt-2 pt-1">
                 <BiSearch className="  md:h-[30px] md:w-[35px]  sm:h-[20px] sm:w-[25px]" />

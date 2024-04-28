@@ -20,7 +20,7 @@ const HowItWorks = () => {
           <div className=" flex justify-start">
             {/* image which you download is not perfect size fix it size first */}
             <div>
-            <img src={img1} alt="" className=" h-[200px] sm:w-[300px] sm:h-[300px] lg:w-[500px] lg:h-[400px] lg:ml-[150px]  ml-[30px]" />
+            <img src={img1} alt="" className=" h-[200px] sm:w-[300px] sm:h-[300px] lg:w-[350px] lg:h-[400px] lg:ml-[150px]  ml-[30px]" />
             </div>
             <div>
             <img src={img7} alt="" className="h-[150px] sm:w-[150px] sm:h-[300px] lg:w-[400px] lg:h-[600px] lg:mt-[300px] sm:mt-[250px] sm:ml-[50px] lg:ml-24 mt-[150px] ml-[20px] "  />
@@ -31,7 +31,7 @@ const HowItWorks = () => {
           </div>
           <div className=" flex justify-between">
             <div className=" self-center">
-            <img src={img6} alt="" className=" h-[150px] sm:w-[250px] sm:h-[200px] lg:w-[320px] lg:h-[320px] sm:mt-[-150px]  lg:mt-[-350px] lg:ml-16 mt-[-150px] ml-2" />
+            <img src={img6} alt="" className=" h-[80px] sm:w-[250px] sm:h-[200px] lg:w-[320px] lg:h-[320px] sm:mt-[-150px]  lg:mt-[-350px] lg:ml-16 mt-[-150px] ml-10" />
             </div>
             <div>
             <img src={img2} alt="" className="h-[200px] sm:w-[300px] sm:h-[300px] lg:w-[400px] lg:h-[400px] lg:mt-[-100px] lg:mr-[190px] sm:mt-[-70px] sm:mr-32  mt-[-20px] mr-[25px] " />
@@ -43,10 +43,10 @@ const HowItWorks = () => {
           </div>
           <div className=" flex justify-between">
             <div >
-            <img src={img3} alt="" className="h-[200px] sm:w-[350px] sm:h-[400px] sm:mt-[200px] sm:ml-[90px] lg:w-[600px] lg:h-[500px] lg:mt-[190px] lg:ml-[200px] mt-[130px]" />
+            <img src={img3} alt="" className="h-[200px] sm:w-[350px] sm:h-[400px] sm:mt-[200px] sm:ml-[90px] lg:w-[400px] lg:h-[500px] lg:mt-[190px] lg:ml-[200px] mt-[140px]" />
             </div>
             <div className=" self-center">
-            <img src={img5} alt="" className=" h-[200px] sm:w-[250px] sm:h-[300px] lg:w-[400px] lg:h-[300px] mr-[20px]  lg:ml-[150px] sm:mt-[420px] lg:mt-[70px]" />
+            <img src={img5} alt="" className=" h-[70px] sm:w-[250px] sm:h-[300px] lg:w-[400px] lg:h-[300px] mr-[70px]  lg:ml-[150px] sm:mt-[420px] lg:mt-[400px]" />
             </div>
           </div>
           

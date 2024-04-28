@@ -3,11 +3,11 @@ import AppLayout from "./AppLayout";
 
 const Pricing = () => {
   return (
-    <div className="bg-[#19223F] my-10 pb-20">
+    <div className="bg-[#352B3D] my-10 pb-20">
       <AppLayout>
         <div className="">
           <h1 className=" text-center font-semibold   text-[38px] sm:text-[50px] pt-10  pb-2 text-white">
-            Our <span className="text-[#722174]">Inaugural Pricing</span>
+            Our <span className="text-[#B190CD]">Inaugural Pricing</span>
           </h1>
           <p className=" font-semibold  text-center pb-14 text-[20px] mx-2 text-white">
             No additional costs. Pay a fixed yearly fee we handle everything for
@@ -65,7 +65,7 @@ const Pricing = () => {
               </p>
               <hr className=" mt-6  lg:w-[350px] sm:w-[180px] border border-dashed" />
               <p className="text-center  pt-4 mb-[-10px]  text-[20px] sm:text-[15px] lg:text-[18px]">
-                -
+                
               </p>
               <hr className=" mt-6  lg:w-[350px] sm:w-[180px] border border-dashed" />
               <p className="text-center  pt-4 mb-[-10px]  text-[20px] sm:text-[15px] lg:text-[18px]">
@@ -81,7 +81,7 @@ const Pricing = () => {
               </p>
               <div className="my-6  mx-6">
                 <a href="">
-                <button class=" bg-[#722174] w-full   font-bold py-2 px-4 rounded">
+                <button class=" bg-[#BF9BDE] w-full   font-bold py-2 px-4 rounded">
                   Button
                 </button>
                 </a>
@@ -155,7 +155,7 @@ const Pricing = () => {
               </p>
               <div className="my-6  mx-6">
                 <a href="">
-                <button class=" bg-[#722174] w-full   font-bold py-2 px-4 rounded">
+                <button class=" bg-[#BF9BDE] w-full   font-bold py-2 px-4 rounded">
                   Button
                 </button>
                 </a>
@@ -227,13 +227,14 @@ const Pricing = () => {
               
               <div className="my-6  mx-6">
                 <a href="">
-                <button class=" bg-[#722174] w-full   font-bold py-2 px-4 rounded">
+                <button class=" bg-[#BF9BDE] w-full   font-bold py-2 px-4 rounded">
                   Button
                 </button>
                 </a>
               </div>
             </div>
           </div>
+          
         </div>
       </AppLayout>
     </div>
