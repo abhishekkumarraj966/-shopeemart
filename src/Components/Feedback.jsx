@@ -25,9 +25,12 @@ const Feedback = () => {
                   {" "}
                   <span className="text-white">Feedback!</span>
                 </h1>
-                <p className="mt-4 sm:mt-10 lg:mt-14 text-[#fff] tracking-[0.5px] pl-2 text-[15px] md:text-[20px]">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Sagittis sed ptibus liberolectus nonet psryroin. Amet sed
+                <p className="mt-4 sm:mt-10 lg:mt-14 text-[#fff] tracking-[0.5px] pl-2 text-[14px] md:text-[18px]">
+                  Your feedback matters to us! At Bizzata, we are committed to
+                  continuously improving our products and services to better
+                  serve you. Please take a moment to share your thoughts,
+                  suggestions, or any concerns you may have. Your input helps us
+                  enhance your experience with Bizzata.
                 </p>
               </div>
             </div>
@@ -107,7 +110,6 @@ const Feedback = () => {
             </SwiperSlide>
           ))}
         </Swiper>
-        
       </AppLayout>
     </div>
   );

@@ -19,13 +19,13 @@ function App() {
       <Hero />
       <Customberp />
       <Shopymart />
+      <Shoopmartgivyou />
       <Category />
-      <HowItWorks/>
-      <Recentblg />
+      <HowItWorks/>      
       <Pricing />
       <Feedback />
 
-      <Shoopmartgivyou />
+      <Recentblg />
       <GetTouch />
 
       <Footer />

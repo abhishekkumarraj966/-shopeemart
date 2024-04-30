@@ -7,7 +7,7 @@ const Pricing = () => {
       <AppLayout>
         <div className="">
           <h1 className=" text-center font-semibold   text-[38px] sm:text-[50px] pt-10  pb-2 text-white">
-            BiZZATA <span className="text-[#B190CD] text-[16px]">YOUR BUSINESS PARTNER</span>
+            BiZZATA <span className="text-[#B190CD] text-[40px]">YOUR BUSINESS PARTNER</span>
           </h1>
           <p className=" font-semibold  text-center pb-14 text-[24px] mx-2 text-white">
             PRICING PLAN
@@ -15,13 +15,13 @@ const Pricing = () => {
         </div>
         <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-2 mx-2 lg:mx-0">
           <div class="mx-auto  ">
-            <div className="sm:w-[320px] w-[100%] lg:w-[330px] rounded-xl hover:bg-white pb-10 hover:text-black text-white  pt-6 ">
-              <h1 className="text-center font-extrabold  tracking-[2px] text-[35px] leading-[5px]">
+            <div className="sm:w-[320px] w-[100%] lg:w-[320px] rounded-xl hover:bg-[#E7E7E7] pb-10 hover:text-black text-white  pt-6 ">
+              <h1 className="text-center font-extrabold  tracking-[2px] text-[40px] leading-[5px]">
                 Basic
               </h1>
               <hr className=" mt-6  w-[340px]   sm:w-[40%] mx-auto h-1" />
               <div className=" text-center">
-                <h3 className=" font-bold text-[50px] sm:text-[40px] tracking-[1px] leading-10 text-[#722174] pt-4">
+                <h3 className=" font-bold text-[35px] sm:text-[35px] tracking-[1px] leading-10 text-[#722174] pt-4">
                   {" "}
                   <span>RS</span> 49991/-
                 </h3>
@@ -42,10 +42,22 @@ const Pricing = () => {
               <p className="text-center  pt-4 mb-[-10px] text-[20px] sm:text-[15px] lg:text-[18px]">
                 Time Frame - 1 year
               </p>
+              <hr className=" mt-6  lg:w-[280px] sm:w-[300px] border border-dashed mx-auto" />
+              <p className="text-center  pt-4 mb-[-10px]  text-[20px] sm:text-[15px] lg:text-[18px]">
+              -
+              </p>
+              <hr className=" mt-6  lg:w-[280px] sm:w-[300px] border border-dashed mx-auto" />
+              <p className="text-center  pt-4 mb-[-10px]  text-[20px] sm:text-[15px] lg:text-[18px]">
+              -
+              </p>
+              <hr className=" mt-6  lg:w-[280px] sm:w-[300px] border border-dashed mx-auto" />
+              <p className="text-center  pt-4 mb-[-10px]  text-[20px] sm:text-[15px] lg:text-[18px]">
+              -
+              </p>
 
               <hr className=" mt-6  lg:w-[280px] sm:w-[300px] border border-dashed mx-auto" />
 
-              <div className="my-6  mx-6 sm:mt-[77px] lg:mt-[193px]">
+              <div className="my-6  mx-6 ">
                 <a href="">
                   <button class=" bg-[#BF9BDE] w-full   font-bold py-2 px-4 rounded">
                     Select Plan
@@ -56,13 +68,13 @@ const Pricing = () => {
           </div>
 
           <div class="mx-auto  ">
-            <div className="sm:w-[320px] w-[100%] lg:w-[330px] rounded-xl hover:bg-white pb-10 hover:text-black text-white  pt-6 ">
-              <h1 className="text-center font-extrabold  tracking-[2px] text-[35px] leading-[5px]">
+            <div className="sm:w-[320px] w-[100%] lg:w-[320px] rounded-xl hover:bg-[#E7E7E7] pb-10 hover:text-black text-white  pt-6 ">
+              <h1 className="text-center font-extrabold  tracking-[2px] text-[40px] leading-[5px]">
                 Stander
               </h1>
               <hr className=" mt-6  w-[340px]   sm:w-[40%] mx-auto h-1" />
               <div className=" text-center">
-                <h3 className=" font-bold text-[50px] sm:text-[40px] tracking-[1px] leading-10 text-[#722174] pt-4">
+                <h3 className=" font-bold text-[35px] sm:text-[35px] tracking-[1px] leading-10 text-[#722174] pt-4">
                   {" "}
                   <span>RS</span> 7999/-
                 </h3>
@@ -89,8 +101,18 @@ const Pricing = () => {
               </p>
 
               <hr className=" mt-6  lg:w-[280px] sm:w-[300px] border border-dashed mx-auto" />
+              <p className="text-center  pt-4 mb-[-10px]  text-[20px] sm:text-[15px] lg:text-[18px]">
+              -
+              </p>
+              <hr className=" mt-6  lg:w-[280px] sm:w-[300px] border border-dashed mx-auto" />
+              <p className="text-center  pt-4 mb-[-10px]  text-[20px] sm:text-[15px] lg:text-[18px]">
+              -
+              </p>
+              
 
-              <div className="my-6  mx-6 lg:mt-[135px]">
+              <hr className=" mt-6  lg:w-[280px] sm:w-[300px] border border-dashed mx-auto" />
+
+              <div className="my-6  mx-6 ">
                 <a href="">
                   <button class=" bg-[#BF9BDE] w-full   font-bold py-2 px-4 rounded">
                     Select Plan
@@ -101,13 +123,13 @@ const Pricing = () => {
           </div>
 
           <div class="mx-auto  ">
-            <div className="sm:w-[320px] w-[100%] lg:w-[330px] rounded-xl hover:bg-white pb-10 hover:text-black text-white  pt-6 ">
-              <h1 className="text-center font-extrabold  tracking-[2px] text-[35px] leading-[5px]">
+            <div className="sm:w-[320px] w-[100%] lg:w-[320px] rounded-xl hover:bg-[#E7E7E7] pb-10 hover:text-black text-white  pt-6 ">
+              <h1 className="text-center font-extrabold  tracking-[2px] text-[40px] leading-[5px]">
                 Deluxe
               </h1>
               <hr className=" mt-6  w-[340px]   sm:w-[40%] mx-auto h-1" />
               <div className=" text-center">
-                <h3 className=" font-bold text-[50px] sm:text-[40px] tracking-[1px] leading-10 text-[#722174] pt-4">
+                <h3 className=" font-bold text-[35px] sm:text-[35px] tracking-[1px] leading-10 text-[#722174] pt-4">
                   {" "}
                   <span>RS</span> 9999/-
                 </h3>
@@ -137,10 +159,14 @@ const Pricing = () => {
               <p className="text-center  pt-4 mb-[-10px] text-[20px] sm:text-[15px] lg:text-[18px]">
                 Banner ads - month
               </p>
+              <hr className=" mt-6  lg:w-[280px] sm:w-[300px] border border-dashed mx-auto" />
+              <p className="text-center  pt-4 mb-[-10px]  text-[20px] sm:text-[15px] lg:text-[18px]">
+              -
+              </p>
 
               <hr className=" mt-6  lg:w-[280px] sm:w-[300px] border border-dashed mx-auto" />
 
-              <div className="my-6  mx-6 sm:mt-[76px]">
+              <div className="my-6  mx-6">
                 <a href="">
                   <button class=" bg-[#BF9BDE] w-full   font-bold py-2 px-4 rounded">
                     Select Plan
@@ -151,13 +177,13 @@ const Pricing = () => {
           </div>
 
           <div class="mx-auto  ">
-            <div className="sm:w-[320px] w-[100%] lg:w-[330px] rounded-xl hover:bg-white pb-10 hover:text-black text-white  pt-6 ">
-              <h1 className="text-center font-extrabold  tracking-[2px] text-[35px] leading-[5px]">
+            <div className="sm:w-[320px] w-[100%] lg:w-[320px] rounded-xl hover:bg-[#E7E7E7] pb-10 hover:text-black text-white  pt-6 ">
+              <h1 className="text-center font-extrabold  tracking-[2px] text-[40px] leading-[5px]">
                 Premium
               </h1>
               <hr className=" mt-6  w-[340px]   sm:w-[40%] mx-auto h-1" />
               <div className=" text-center">
-                <h3 className=" font-bold text-[50px] sm:text-[40px] tracking-[1px] leading-10 text-[#722174] pt-4">
+                <h3 className=" font-bold text-[35px] sm:text-[35px] tracking-[1px] leading-10 text-[#722174] pt-4">
                   {" "}
                   <span>RS</span> 14999/-
                 </h3>
@@ -195,7 +221,7 @@ const Pricing = () => {
 
               <hr className=" mt-6  lg:w-[280px] sm:w-[300px] border border-dashed mx-auto" />
 
-              <div className="my-6  mx-6 lg:mt-[17px] ">
+              <div className="my-6  mx-6 lg:mt-[24px] ">
                 <a href="">
                   <button class=" bg-[#BF9BDE] w-full   font-bold py-2 px-4 rounded">
                     Select Plan

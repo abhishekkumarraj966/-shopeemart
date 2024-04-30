@@ -13,10 +13,9 @@ const GetTouch = () => {
                 <span className="text-[#B190CD]">ShopeeMart </span>
                 <span className="text-white">To increase Your Business</span>
               </h1>
-              <p className="mt-1 sm:mt-2 lg:mt-2 text-[#fff] tracking-[0.5px] pl-2 text-[10px] sm:text-[12px] md:text-[10px] mx-2 sm:leading-[25px]">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Dictumst amet ,metus , sit massa posuere maecenas. At Tellus ut
-                nunc amet vel egestas.
+              <p className="mt-1 sm:mt-2 lg:mt-2 text-[#E7E7E7] tracking-[0.5px] pl-2 text-[10px] sm:text-[12px] md:text-[16px] mx-2 sm:leading-[20px]">
+              Looking to expand your business further? Partner with ShopeeMart, our trusted affiliate, to enhance your reach and boost your sales. With ShopeeMart's extensive network and resources, you can tap into new markets and connect with a broader audience. Whether you're a small retailer or a growing entrepreneur, collaborating with ShopeeMart can help take your business to the next level. Get in touch today and explore new opportunities for growth!
+
               </p>
             </div>
           </div>

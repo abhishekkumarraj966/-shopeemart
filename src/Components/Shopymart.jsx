@@ -52,7 +52,7 @@ const Shopymart = () => {
               <img
                 src={spmart}
                 alt=""
-                className="mt-[-50px] h-[350px] sm:h-[380px] lg:h-[400px] w-[110%]"
+                className="mt-[-50px] lg:mt-[-50px] sm:mt-[20px] h-[350px] sm:h-[400px] lg:h-[400px] w-[110%]"
               />
             </div>
           </div>
