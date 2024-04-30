@@ -12,7 +12,7 @@ const Navbar = () => {
   };
 
   const content = (
-    <div className="sm:hidden block absolute top-16 w-full left-0 right-0 bg-[#722174]  transition-transform duration-200 transform ">
+    <div className="sm:hidden block absolute top-16 w-full left-0 right-0 bg-[#FFF]  transition-transform duration-200 transform ">
       <AppLayout>
         <ul className="text-center text-xl px-[20px] shadow-2xl  transition-transform duration-200 transform ">
           <li className="my-4 py-4 border-black ">
@@ -39,19 +39,19 @@ const Navbar = () => {
   );
 
   return (
-    <div className="bg-[#722174] text-white">
+    <div className="bg-[#FFFFFF] text-black">
       <AppLayout>
         <nav>
-          <div className="h-16 flex justify-between z-20 text-white lg:py-5 px-[20px] py-4 ">
+          <div className="h-16 flex justify-between z-20 text-black lg:py-5 px-[20px] py-4 ">
             <div className="flex items-center flex-1">
-              <a href="https://adsp-temp1-pro.vercel.app/">
+              <a href="/">
                 <span className="text-3xl font-bold">Bizzata</span>
                 {/* <img src="/" alt="comLogo" /> */}
               </a>
             </div>
             <div className="lg:flex lg:flex-1 items-center justify-end font-normal hidden">
               <div className="flex-10">
-                <ul className="flex gap-6 mr-16 text-[18px] ">
+                <ul className="flex gap-6 mr-10 text-[18px]  font-semibold">
                   <li className="hover:text-black transition  hover:underline  cursor-pointer">
                     <Link to="/">Home</Link>
                   </li>
