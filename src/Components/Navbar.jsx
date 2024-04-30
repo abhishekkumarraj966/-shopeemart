@@ -75,7 +75,7 @@ const Navbar = () => {
             </div>
             <div>{click && content}</div>
             <button
-              className="block md:hidden translate text-white"
+              className="block md:hidden translate text-[#352B3D]"
               onClick={handleClick}
             >
               {click ? <FaTimes/> : <CiMenuBurger/>}
