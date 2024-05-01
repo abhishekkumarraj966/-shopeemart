@@ -49,15 +49,15 @@ const Shoopmartgivyou = () => {
             {slidesData.map((slide) => (
               <SwiperSlide key={slide.id}>
                 <div className="flex gap-4 pb-10">
-                  <div className="h-[120px] sm:w-[350px] w-[320px] mx-auto shadow-md flex gap-1">
+                  <div className="h-[120px] sm:w-[400px] w-[320px] mx-auto  my-auto shadow-md flex gap-1">
                     <div className="pt-1">
-                      <img src={card} alt="" />
+                      <img src={slide.img} alt="" className="h-[50px] w-[150px]"  />
                     </div>
                     <div className="pt-2">
-                      <h1 className="font-bold text-[16px] cursor-pointer">
+                      <h1 className="font-semibold text-[14px] cursor-pointer">
                         <a href="">{slide.title}</a>
                       </h1>
-                      <p className="text-[13px] mx-2 font-normal">
+                      <p className="text-[12px] lg:text-[14px]  mx-2 font-normal pb-2">
                         {slide.description}
                       </p>
                     </div>
