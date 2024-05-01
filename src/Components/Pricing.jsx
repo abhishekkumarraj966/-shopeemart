@@ -23,7 +23,7 @@ const Pricing = () => {
               <div className=" text-center">
                 <h3 className=" font-bold text-[35px] sm:text-[35px] tracking-[1px] leading-10 text-[#722174] pt-4">
                   {" "}
-                  <span>RS</span> 49991/-
+                  <span>RS</span> 4999 /-
                 </h3>
               </div>
               <hr className=" mt-6  lg:w-[280px] sm:w-[300px] border border-dashed mx-auto" />
