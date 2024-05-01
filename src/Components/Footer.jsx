@@ -103,12 +103,14 @@ const Footer = () => {
             <h2 className="pt-4 font-semibold text-[20px] sm:text-[30px] text-[#BF9BDE] pl-2">
               Subscribe Us
             </h2>
+            <div className="leading-[13px]">
             <p className="mt-2 mb-1  text-[16px] text-white cursor-pointer hover:underline pl-4">
             subscribe to our newsletter to get 
             </p>
             <p className="mt-2 mb-1  text-[16px] text-white cursor-pointer hover:underline pl-4">
             updates about our grand offers.
             </p>
+            </div>
             <form action="" className="mt-4 inline-flex w-full items-center md:w-3/4">
             <input
               className="flex h-10 w-full rounded-md border border-white bg-transparent px-3 py-2 text-sm placeholder:text-white focus:outline-none focus:ring-1 focus:ring-white/30 focus:ring-offset-1 disabled:cursor-not-allowed disabled:opacity-50"
