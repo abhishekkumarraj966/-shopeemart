@@ -31,7 +31,7 @@ const Footer = () => {
         <div class="">
           <div className="pt-2 ">
             <h2 className="pt-4 font-semibold text-[20px] sm:text-[30px] text-[#BF9BDE] pl-2">
-              ShopeeMart
+             Bizzata 
             </h2>
             <p className="mt-2 mb-1  text-[16px] text-white cursor-pointer hover:underline pl-4">
               Contact us
@@ -128,7 +128,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="flex mx-10 gap-10">
-        <h1 className="text-[20px] text-white pt-4 lg:pl-20">&copy; 2024 ShopeeMart. All rights reserved.</h1>
+        <h1 className="text-[20px] text-white pt-4 lg:pl-20">&copy; 2024  Bizzata. All rights reserved.</h1>
         
       </div>
     </div>

@@ -11,25 +11,25 @@ import AppLayout from "./AppLayout";
 
 const HowItWorks = () => {
   return (
-    <div className=" bg-[#352B3D] py-[50px]  sm:h-full overflow-hidden">
+    <div className=" bg-[#352B3D] pb-[50px] pt-[10px] sm:h-full overflow-hidden">
       <AppLayout>
-        <h1 className="text-center text-white text-4xl font-bold pt-8 ">
+        <h1 className="text-center text-white text-[40px] font-bold sm:pt-8 ">
           How it Works ?
         </h1>
         <div className="flex flex-col  mt-10 relative ">
           {/* see what you can do you can put this div after h1 tag and then use position fix there size  */}
           <div className=" overflow-hidden">
             
-            <img src={img7} alt="" className=" absolute top-[12px] h-[602px] right-[228px] rotate-[293deg] " />
+            <img src={img7} alt="" className=" absolute  rotate-[320deg] h-[240px] right-[-1px] top-[70px] lg:top-[12px] sm:top-[50px] lg:h-[602px] sm:h-[450px] sm:right-[120px] lg:right-[228px] sm:rotate-[293deg] " />
             
     
-            <img src={img7} alt="" className=" absolute top-[831px] h-[600px] right-[170px] rotate-45 z-0" />
+            <img src={img7} alt="" className=" absolute top-[470px] right-[15px] rotate-[390deg] h-[200px] sm:top-[600px] lg:top-[831px] lg:h-[600px] sm:h-[400px]  sm:right-[120px] lg:right-[170px] sm:rotate-45 z-0" />
 
       
             <img
               src={img4}
               alt=""
-              className=" absolute top-[-43px] h-[433px] right-[-334px]"
+              className=" absolute right-[-50px] h-[150px] top-[-60px] sm:top-[-80px] lg:top-[-43px] lg:h-[433px] sm:h-[300px] sm:right-[-100px] lg:right-[-334px]"
             />
           </div>
 
@@ -45,7 +45,7 @@ const HowItWorks = () => {
               <img
                 src={img6}
                 alt=""
-                className=" h-[200px] sm:w-[250px] sm:h-[200px] lg:w-[320px] lg:h-[320px] "
+                className=" h-[100px] sm:w-[250px] sm:h-[200px] lg:w-[320px] lg:h-[320px] "
               />
             </div>
             <div>
@@ -61,14 +61,14 @@ const HowItWorks = () => {
               <img
                 src={img3}
                 alt=""
-                className="lg:h-[400px] "
+                className="h-[200px] sm:w-[300px] sm:h-[300px] lg:w-[400px] lg:h-[400px] "
               />
             </div>
             <div className=" self-center">
               <img
                 src={img5}
                 alt=""
-                className=" lg:w-[400px]  "
+                className="   h-[100px] lg:h-[400px] sm:h-[250px]"
               />
             </div>
           </div>

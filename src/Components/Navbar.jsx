@@ -12,7 +12,7 @@ const Navbar = () => {
   };
 
   const content = (
-    <div className="sm:hidden block absolute top-16 w-full left-0 right-0 bg-[#FFF]  transition-transform duration-200 transform ">
+    <div className="md:hidden block absolute top-16 w-full left-0 right-0 bg-[#FFF]  transition-transform duration-200 transform ">
       <AppLayout>
         <ul className="text-center text-xl px-[20px] shadow-2xl  transition-transform duration-200 transform ">
           <li className="my-4 py-4 border-black ">
@@ -49,7 +49,7 @@ const Navbar = () => {
                 {/* <img src="/" alt="comLogo" /> */}
               </a>
             </div>
-            <div className="lg:flex lg:flex-1 items-center justify-end font-normal hidden">
+            <div className="md:flex lg:flex-1 items-center justify-end font-normal hidden">
               <div className="flex-10">
                 <ul className="flex gap-6 mr-10 text-[18px]  font-semibold">
                   <li className="hover:text-black transition  hover:underline  cursor-pointer">

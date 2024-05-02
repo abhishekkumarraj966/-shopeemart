@@ -7,7 +7,7 @@ const Pricing = () => {
       <AppLayout>
         <div className="">
           <h1 className=" text-center font-semibold   text-[38px] sm:text-[50px] pt-10  pb-2 text-white">
-            BiZZATA <span className="text-[#B190CD] text-[40px]">YOUR BUSINESS PARTNER</span>
+            BiZZATA <span className="text-[#B190CD] text-[14px] sm:text-[40px]">YOUR BUSINESS PARTNER</span>
           </h1>
           <p className=" font-semibold  text-center pb-14 text-[24px] mx-2 text-white">
             PRICING PLAN

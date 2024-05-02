@@ -9,6 +9,7 @@ import HowItWorks from "./Components/HowItWorks";
 import Navbar from "./Components/Navbar";
 import Pricing from "./Components/Pricing";
 import Recentblg from "./Components/Recentblg";
+import Searchpag from "./Components/Searchpag";
 import Shoopmartgivyou from "./Components/Shoopmartgivyou";
 import Shopymart from "./Components/Shopymart";
 
@@ -16,7 +17,7 @@ function App() {
   return (
     <div>
       <Navbar />
-      <Hero />
+      {/* <Hero />
       <Customberp />
       <Shopymart />
       <Shoopmartgivyou />
@@ -25,9 +26,9 @@ function App() {
       <Pricing />
       <Feedback />
 
-      <Recentblg />
-      <GetTouch />
-
+      <Recentblg /> */}
+      {/* <GetTouch /> */}
+      <Searchpag/>
       <Footer />
     </div>
   );
