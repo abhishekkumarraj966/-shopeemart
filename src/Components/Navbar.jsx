@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { FaTimes } from "react-icons/fa";
 import { CiMenuBurger } from "react-icons/ci";
 import AppLayout from "./AppLayout";
-import { Link } from "react-scroll";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
@@ -16,7 +16,7 @@ const Navbar = () => {
       <AppLayout>
         <ul className="text-center text-xl px-[20px] shadow-2xl  transition-transform duration-200 transform ">
           <li className="my-4 py-4 border-black ">
-            <a href="#home">About Us</a>
+            <a href="/aboutus">About Us</a>
           </li>
           <li className="my-4 py-4 border-black">
             <Link to="/about">Pricing</Link>
@@ -25,7 +25,7 @@ const Navbar = () => {
             <a href="#services">How to Works</a>
           </li>
           <li className="my-4 py-4 border-black">
-            <a href="#Contact">Contct </a>
+            <a href="/contactus">Contct </a>
           </li>
           <li className="my-4 py-4 border-black">
             <a href="#gallery">Sign In</a>
@@ -56,13 +56,13 @@ const Navbar = () => {
                     <Link to="/">Home</Link>
                   </li>
                   <li className="hover:text-black transition  hover:underline  cursor-pointer">
-                    <Link to="/about">About Us</Link>
+                    <Link to="/aboutus">About Us</Link>
                   </li>
                   <li className="hover:text-black transition  hover:underline  cursor-pointer">
                     <a href="#services">Services</a>
                   </li>
                   <li className="hover:text-black transition  hover:underline  cursor-pointer">
-                    <a href="#inquryform">Contct Us</a>
+                    <a href="/contactus">Contct Us</a>
                   </li>
                   <li className="hover:text-black transition  hover:underline  cursor-pointer">
                     <a href="#gallery">Gallery</a>

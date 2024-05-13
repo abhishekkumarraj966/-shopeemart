@@ -231,6 +231,10 @@ const Pricing = () => {
             </div>
           </div>
         </div>
+        <div className="mx-2 sm:mx-10 pt-2 text-[20px] text-white tracking-[1px]">
+          <h2>NFC business Card is Free with All Plan</h2>
+          <h2>This plan is valid till 31 Dce 2024</h2>
+        </div>
       </AppLayout>
     </div>
   );
