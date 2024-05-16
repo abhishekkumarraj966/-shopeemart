@@ -1,6 +1,7 @@
 import React from "react";
 import AppLayout from "./AppLayout";
 import spmart from "./assites/spMart.png";
+import { Link } from "react-router-dom";
 const Shopymart = () => {
   return (
     <div className="bg-[#352B3D]">
@@ -38,12 +39,16 @@ const Shopymart = () => {
                   landscape, one transaction at a time.
                 </p>
                 <div className="flex pt-10 gap-14">
-                  <p className="bg-[#BF9BDE] w-[300px]   rounded-md py-2 px-3 font-medium">
+                <Link to="/aboutus">
+                  <p className="bg-[#BF9BDE] w-[140px] sm:w-[200px]   rounded-md py-2 px-3 font-medium cursor-pointer">
                     Know More
                   </p>
-                  <p className="bg-[#BF9BDE] w-[300px]   rounded-md py-2 px-3 font-medium">
+                  </Link>
+                  <Link to="/signeup">
+                  <p className="bg-[#BF9BDE] w-[140px] sm:w-[200px]   rounded-md py-2 px-3 font-medium cursor-pointer">
                     Let's Start
                   </p>
+                  </Link>
                 </div>
               </div>
             </div>

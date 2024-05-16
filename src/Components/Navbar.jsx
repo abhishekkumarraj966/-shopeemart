@@ -22,16 +22,16 @@ const Navbar = () => {
             <Link to="/about">Pricing</Link>
           </li>
           <li className="my-4 py-4 border-black">
-            <a href="#services">How to Works</a>
+            <a href="#services">Services</a>
           </li>
           <li className="my-4 py-4 border-black">
-            <a href="/contactus">Contct </a>
+            <a href="/contactus">Contct Us</a>
           </li>
           <li className="my-4 py-4 border-black">
-            <a href="#gallery">Sign In</a>
+            <a href="/gallery">Gallery</a>
           </li>
           <li className="my-4 py-4 border-black text-[#FFD323]">
-            <a href="#gallery">Click now</a>
+            <a href="/clicknow">Click now</a>
           </li>
         </ul>
       </AppLayout>
@@ -65,10 +65,10 @@ const Navbar = () => {
                     <a href="/contactus">Contct Us</a>
                   </li>
                   <li className="hover:text-black transition  hover:underline  cursor-pointer">
-                    <a href="#gallery">Gallery</a>
+                    <a href="/gallery">Gallery</a>
                   </li>
                   <li className="hover:text-black transition  hover:underline  cursor-pointer text-[#FFD323] ">
-                    <a href="#gallery">Click now</a>
+                    <a href="/clicknow">Click now</a>
                   </li>
                 </ul>
               </div>

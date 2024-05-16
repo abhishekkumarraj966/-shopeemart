@@ -70,7 +70,7 @@ const Pricing = () => {
           <div class="mx-auto  ">
             <div className="sm:w-[320px] w-[100%] lg:w-[320px] rounded-xl hover:bg-[#E7E7E7] pb-10 hover:text-black text-white  pt-6 ">
               <h1 className="text-center font-extrabold  tracking-[2px] text-[40px] leading-[5px]">
-                Stander
+                Standard
               </h1>
               <hr className=" mt-6  w-[340px]   sm:w-[40%] mx-auto h-1" />
               <div className=" text-center">
@@ -231,7 +231,7 @@ const Pricing = () => {
             </div>
           </div>
         </div>
-        <div className="mx-2 sm:mx-10 pt-2 text-[20px] text-white tracking-[1px]">
+        <div className="mx-2 sm:mx-10 pt-2 text-[16px] sm:text-[20px] font-medium text-white tracking-[1px]">
           <h2>NFC business Card is Free with All Plan</h2>
           <h2>This plan is valid till 31 Dce 2024</h2>
         </div>

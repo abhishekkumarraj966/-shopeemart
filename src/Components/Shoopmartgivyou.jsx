@@ -13,7 +13,7 @@ const Shoopmartgivyou = () => {
     <AppLayout>
       <div className="my-10">
         <h1 className="text-center font-bold text-4xl text-[#000] tracking-1 sm:tracking-2 font-serif mb-8">
-        Bizzata gives you
+          Bizzata gives you
         </h1>
 
         <Swiper
@@ -30,28 +30,32 @@ const Shoopmartgivyou = () => {
               slidesPerView: 3,
               spaceBetween: 15,
             },
-            
           }}
+          slidesPerView={1}
           spaceBetween={30}
-          centeredSlides={true}
+          loop={true}
+          pagination={{
+            clickable: true,
+          }}
           autoplay={{
             delay: 2500,
             disableOnInteraction: false,
           }}
-          pagination={{
-            clickable: true,
-          }}
           navigation={true}
-          modules={[Autoplay, Pagination, Navigation]}
+          modules={[Pagination, Autoplay, Navigation]}
           className="mySwiper"
         >
           <div className=" h-[150]">
             {slidesData.map((slide) => (
               <SwiperSlide key={slide.id}>
-                <div className="flex gap-4 pb-10">
-                  <div className="h-[120px] sm:w-[400px] w-[320px] mx-auto  my-auto shadow-md flex gap-1">
+                <div className="flex gap-4 pb-10 px-8">
+                  <div className="h-[120px] sm:w-[410px] w-[320px] mx-auto  my-auto shadow-md flex gap-1">
                     <div className="pt-1">
-                      <img src={slide.img} alt="" className="h-[50px] w-[150px]"  />
+                      <img
+                        src={slide.img}
+                        alt=""
+                        className="h-[50px] w-[150px]"
+                      />
                     </div>
                     <div className="pt-2">
                       <h1 className="font-semibold text-[14px] cursor-pointer">

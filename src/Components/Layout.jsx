@@ -11,7 +11,7 @@ import GetTouch from "./GetTouch";
 import Recentblg from "./Recentblg";
 const Layout = () => {
   return (
-    <div className="bg-[#ECECEC]">
+    <div className="bg-[#FFF]">
       <Hero />
       <Customberp />
       <Shopymart />

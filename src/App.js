@@ -17,6 +17,9 @@ import Returnsrefunds from "./Components/Pages/Returnsrefunds";
 import Cookieguidelines from "./Components/Pages/Cookieguidelines";
 import Termsconditions from "./Components/Pages/Termsconditions";
 import Blogspg from "./Components/Pages/Blogspg";
+import Gallery from "./Components/Pages/Gallery";
+import Clicknow from "./Components/Pages/Clicknow";
+import Signeup from "./Components/Pages/Signeup";
 
 function App() {
   return (
@@ -38,7 +41,9 @@ function App() {
           <Route path="/cookieguidelines" exact element={<Cookieguidelines/>} />
           <Route path="/termsconditions" exact element={<Termsconditions/>} />
           <Route path="/blogpg" exact element={<Blogspg/>} />
-
+          <Route path="/gallery" exact element={<Gallery/>} />
+          <Route path="/clicknow" exact element={<Clicknow/>} />
+          <Route path="/signeup" exact element={<Signeup/>} />
           <Route path="/searchpg" element={<Searchpag />} />
         </Routes>
         <Footer />
