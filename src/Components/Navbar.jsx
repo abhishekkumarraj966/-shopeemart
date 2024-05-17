@@ -15,20 +15,20 @@ const Navbar = () => {
     <div className="md:hidden block absolute top-16 w-full left-0 right-0 bg-[#FFF]  transition-transform duration-200 transform z-40 ">
       <AppLayout>
         <ul className="text-center text-xl px-[20px] shadow-2xl  transition-transform duration-200 transform  ">
+        <li className="my-4 py-4 border-black ">
+        <Link to="/">Home</Link>
+          </li>
           <li className="my-4 py-4 border-black ">
             <a href="/aboutus">About Us</a>
           </li>
           <li className="my-4 py-4 border-black">
-            <Link to="/about">Pricing</Link>
+            <Link to="/pricing">Pricing</Link>
           </li>
           <li className="my-4 py-4 border-black">
             <a href="/searchpg">Services</a>
           </li>
           <li className="my-4 py-4 border-black">
             <a href="/contactus">Contct Us</a>
-          </li>
-          <li className="my-4 py-4 border-black">
-            <a href="/gallery">Gallery</a>
           </li>
           <li className="my-4 py-4 border-black text-[#FFD323]">
             <a href="/clicknow">Click now</a>
@@ -65,7 +65,7 @@ const Navbar = () => {
                     <a href="/contactus">Contct Us</a>
                   </li>
                   <li className="hover:text-black transition  hover:underline  cursor-pointer">
-                    <a href="/gallery">Gallery</a>
+                    <a href="/pricing">Pricing</a>
                   </li>
                   <li className="hover:text-black transition  hover:underline  cursor-pointer text-[#FFD323] ">
                     <a href="/clicknow">Click now</a>
