@@ -15,9 +15,6 @@ const Navbar = () => {
     <div className="md:hidden block absolute top-16 w-full left-0 right-0 bg-[#FFF]  transition-transform duration-200 transform z-40 ">
       <AppLayout>
         <ul className="text-center text-xl px-[20px] shadow-2xl  transition-transform duration-200 transform  ">
-        <li className="my-4 py-4 border-black ">
-        <Link to="/">Home</Link>
-          </li>
           <li className="my-4 py-4 border-black ">
             <a href="/aboutus">About Us</a>
           </li>
@@ -25,13 +22,16 @@ const Navbar = () => {
             <Link to="/pricing">Pricing</Link>
           </li>
           <li className="my-4 py-4 border-black">
-            <a href="/searchpg">Services</a>
+            <a href="/howItWorks">How it Works</a>
           </li>
           <li className="my-4 py-4 border-black">
-            <a href="/contactus">Contct Us</a>
+            <a href="/contactus">Contct</a>
           </li>
           <li className="my-4 py-4 border-black text-[#FFD323]">
-            <a href="/clicknow">Click now</a>
+            <a href="/clicknow">Sign In </a>
+          </li>
+          <li className="hover:text-black transition  hover:underline  cursor-pointer text-[#000] bg-[#D4CEDB] px-4 py-2 rounded-md ">
+            <a href="/pricing">Make you Website</a>
           </li>
         </ul>
       </AppLayout>
@@ -51,24 +51,25 @@ const Navbar = () => {
             </div>
             <div className="md:flex lg:flex-1 items-center justify-end font-normal hidden">
               <div className="flex-10">
-                <ul className="flex gap-6 mr-10 text-[18px]  font-semibold">
+                <ul className="flex gap-6 mr-16 text-[18px]  font-semibold">
                   <li className="hover:text-black transition  hover:underline  cursor-pointer">
-                    <Link to="/">Home</Link>
-                  </li>
-                  <li className="hover:text-black transition  hover:underline  cursor-pointer">
-                    <Link to="/aboutus">About Us</Link>
-                  </li>
-                  <li className="hover:text-black transition  hover:underline  cursor-pointer">
-                    <a href="/searchpg">Services</a>
-                  </li>
-                  <li className="hover:text-black transition  hover:underline  cursor-pointer">
-                    <a href="/contactus">Contct Us</a>
+                    <Link to="/aboutus">About</Link>
                   </li>
                   <li className="hover:text-black transition  hover:underline  cursor-pointer">
                     <a href="/pricing">Pricing</a>
                   </li>
-                  <li className="hover:text-black transition  hover:underline  cursor-pointer text-[#FFD323] ">
-                    <a href="/clicknow">Click now</a>
+                  <li className="hover:text-black transition  hover:underline  cursor-pointer">
+                    <a href="/howItWorks">How it Works</a>
+                  </li>
+                  <li className="hover:text-black transition  hover:underline  cursor-pointer">
+                    <a href="/contactus">Contct</a>
+                  </li>
+
+                  <li className="hover:text-black transition  hover:underline  cursor-pointer">
+                    <a href="/clicknow">Sign In</a>
+                  </li>
+                  <li className="hover:text-black transition  hover:underline  cursor-pointer text-[#000] bg-[#D4CEDB] px-4 py-2 rounded-md ">
+                    <a href="/pricing">Make you Website</a>
                   </li>
                 </ul>
               </div>
@@ -78,7 +79,7 @@ const Navbar = () => {
               className="block md:hidden translate text-[#352B3D]"
               onClick={handleClick}
             >
-              {click ? <FaTimes/> : <CiMenuBurger/>}
+              {click ? <FaTimes /> : <CiMenuBurger />}
             </button>
           </div>
         </nav>
