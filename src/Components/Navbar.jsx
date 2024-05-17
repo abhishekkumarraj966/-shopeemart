@@ -12,9 +12,9 @@ const Navbar = () => {
   };
 
   const content = (
-    <div className="md:hidden block absolute top-16 w-full left-0 right-0 bg-[#FFF]  transition-transform duration-200 transform ">
+    <div className="md:hidden block absolute top-16 w-full left-0 right-0 bg-[#FFF]  transition-transform duration-200 transform z-40 ">
       <AppLayout>
-        <ul className="text-center text-xl px-[20px] shadow-2xl  transition-transform duration-200 transform ">
+        <ul className="text-center text-xl px-[20px] shadow-2xl  transition-transform duration-200 transform  ">
           <li className="my-4 py-4 border-black ">
             <a href="/aboutus">About Us</a>
           </li>
@@ -22,7 +22,7 @@ const Navbar = () => {
             <Link to="/about">Pricing</Link>
           </li>
           <li className="my-4 py-4 border-black">
-            <a href="#services">Services</a>
+            <a href="/searchpg">Services</a>
           </li>
           <li className="my-4 py-4 border-black">
             <a href="/contactus">Contct Us</a>
@@ -59,7 +59,7 @@ const Navbar = () => {
                     <Link to="/aboutus">About Us</Link>
                   </li>
                   <li className="hover:text-black transition  hover:underline  cursor-pointer">
-                    <a href="#services">Services</a>
+                    <a href="/searchpg">Services</a>
                   </li>
                   <li className="hover:text-black transition  hover:underline  cursor-pointer">
                     <a href="/contactus">Contct Us</a>

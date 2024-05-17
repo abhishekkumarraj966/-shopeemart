@@ -8,7 +8,7 @@ import { FaLocationDot } from "react-icons/fa6";
 import { GrSearch } from "react-icons/gr";
 
 // import required modules
-import { Autoplay, Pagination, Navigation } from "swiper/modules";
+import { Autoplay, Pagination } from "swiper/modules";
 import slider from "./Mock/Slider";
 import AppLayout from "./AppLayout";
 const Hero = () => {
@@ -60,8 +60,8 @@ const Hero = () => {
         pagination={{
           clickable: true,
         }}
-        navigation={true}
-        modules={[Autoplay, Pagination, Navigation]}
+      
+        modules={[Autoplay, Pagination]}
         className="mySwiper"
       >
         {slider.map((image, index) => (
