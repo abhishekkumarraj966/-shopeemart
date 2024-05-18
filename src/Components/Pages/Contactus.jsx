@@ -61,17 +61,17 @@ const Contactus = () => {
             <h2 className="font-bold text-start text-[16px] mb-2">
               Billing Inquires
             </h2>
-            <p className=" font-normal text-[16px]">Call. </p>
+            <p className=" font-normal text-[16px]">+91 93994 04240 / +91 8319819932</p>
             <h2 className="font-bold text-start text-[16px] mb-2">
               Information and Sales
             </h2>
-            <p className=" font-normal text-[16px]">Email.</p>
+            <p className=" font-normal text-[16px]">Info@bizzata.in</p>
             <h2 className="font-bold text-start text-[16px] mb-2">Support</h2>
-            <p className=" font-normal text-[16px]">Email..</p>
+            <p className=" font-normal text-[16px]">Info@bizzata.in</p>
             <h2 className="font-bold text-start text-[16px] mb-2">
               Addditinal office Locations
             </h2>
-            <p className=" font-normal text-[16px]  sm:mb-4 ">Location....</p>
+            <p className=" font-normal text-[16px]  sm:mb-4 "> 3rd Floor, office # 310 bizzata marketing , Sathguru Parinay, Opposite C-21 Mall, Scheme No 54, Indore, Madhya Pradesh 452010</p>
           </div>
           
           <div className="max-w-md mx-auto p-4">
