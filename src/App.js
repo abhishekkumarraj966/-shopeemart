@@ -17,11 +17,11 @@ import Returnsrefunds from "./Components/Pages/Returnsrefunds";
 import Cookieguidelines from "./Components/Pages/Cookieguidelines";
 import Termsconditions from "./Components/Pages/Termsconditions";
 import Blogspg from "./Components/Pages/Blogspg";
-import Gallery from "./Components/Pages/Gallery";
 import Clicknow from "./Components/Pages/Clicknow";
 import Signeup from "./Components/Pages/Signeup";
 import HowItWorks from "./Components/HowItWorks";
 import Pricing from "./Components/Pricing";
+import Nextsigneup from "./Components/Pages/Nextsigneup";
 
 function App() {
   return (
@@ -43,12 +43,13 @@ function App() {
           <Route path="/cookieguidelines" exact element={<Cookieguidelines/>} />
           <Route path="/termsconditions" exact element={<Termsconditions/>} />
           <Route path="/blogpg" exact element={<Blogspg/>} />
-          <Route path="/gallery" exact element={<Gallery/>} />
+
           <Route path="/clicknow" exact element={<Clicknow/>} />
           <Route path="/signeup" exact element={<Signeup/>} />
 
           <Route path="/pricing" exact element={<Pricing/>} />
           <Route path="/howItWorks" exact element={<HowItWorks/>} />
+          <Route path="/nextsigneup" exact element={<Nextsigneup/>} />
           <Route path="/searchpg" element={<Searchpag />} />
         </Routes>
         <Footer />

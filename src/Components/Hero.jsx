@@ -15,6 +15,7 @@ const Hero = () => {
   return (
     <div>
       <AppLayout>
+        <div className="mx-4">
         <div className="py-4 pt-8 flex gap-2 sm:gap-4">
           <div className="relative flex  border-2 border-[#352B3D] rounded md:w-max">
             <input
@@ -48,6 +49,7 @@ const Hero = () => {
               <GrSearch className="w-[20px] h-[25px] font-bold text-black" />
             </button>
           </div>
+        </div>
         </div>
       </AppLayout>
       <Swiper

@@ -31,7 +31,7 @@ const Navbar = () => {
             <a href="/clicknow">Sign In </a>
           </li>
           <li className="hover:text-black transition  hover:underline  cursor-pointer text-[#000] bg-[#D4CEDB] px-4 py-2 rounded-md ">
-            <a href="/pricing">Make you Website</a>
+            <a href="/signeup">Make you Website online</a>
           </li>
         </ul>
       </AppLayout>
@@ -49,9 +49,9 @@ const Navbar = () => {
                 {/* <img src="/" alt="comLogo" /> */}
               </a>
             </div>
-            <div className="md:flex lg:flex-1 items-center justify-end font-normal hidden">
-              <div className="flex-10">
-                <ul className="flex gap-6 mr-16 text-[18px]  font-semibold">
+            <div className="md:flex lg:flex-1 items-start justify-end font-normal hidden">
+              <div className="flex">
+                <ul className="flex gap-4  text-[17px]  font-semibold">
                   <li className="hover:text-black transition  hover:underline  cursor-pointer">
                     <Link to="/aboutus">About</Link>
                   </li>
@@ -68,8 +68,8 @@ const Navbar = () => {
                   <li className="hover:text-black transition  hover:underline  cursor-pointer">
                     <a href="/clicknow">Sign In</a>
                   </li>
-                  <li className="hover:text-black transition  hover:underline  cursor-pointer text-[#000] bg-[#D4CEDB] px-4 py-2 rounded-md ">
-                    <a href="/pricing">Make you Website</a>
+                  <li className="hover:text-black transition text-[12px]  hover:underline  cursor-pointer text-[#816A95] bg-[#D4CEDB] px-4 py-2 rounded-md ">
+                    <a href="/signeup">Make you Website online</a>
                   </li>
                 </ul>
               </div>

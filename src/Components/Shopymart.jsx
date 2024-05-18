@@ -8,17 +8,14 @@ const Shopymart = () => {
       <AppLayout>
         <div className="py-10">
           <h1 className="text-center font-bold text-[30px] text-[#fff] tracking-[2px] sm:tracking-[5px]  font-serif">
-          Why Bizzata
+          Why Bizzata ? 
           </h1>
 
           <div className="grid grid-cols-1 sm:grid-cols-3 mt-4 ">
             <div className=" p-4 col-span-2">
               <div className="">
-                <h1 className=" text-start text-[#B190CD] font-bold sm:text-[30px] text-[20px] pl-4 tracking-[2px] sm:leading-[20px] leading-[15px]">
-                Bizzata Heading
-                </h1>
                 <p className="mt-4 sm:mt-10 lg:mt-14 text-[#fff] tracking-[0.5px] pl-2 text-[14px] md:text-[16px]">
-                  Why Bizzata Bizzata stands out in the competitive landscape as
+                 Bizzata stands out in the competitive landscape as
                   a comprehensive listing platform and e-commerce hub,
                   revolutionizing the way businesses operate online. Unlike
                   traditional platforms, Bizzata consolidates all facets of
@@ -37,17 +34,18 @@ const Shopymart = () => {
                   innovative approach and dedication to customer satisfaction,
                   Bizzata is poised to reshape the digital marketplace
                   landscape, one transaction at a time.
+                
                 </p>
                 <div className="flex pt-10 gap-14">
-                <Link to="/aboutus">
-                  <p className="bg-[#BF9BDE] w-[140px] sm:w-[200px]   rounded-md py-2 px-3 font-medium cursor-pointer">
-                    Know More
-                  </p>
+                  <Link to="/aboutus">
+                    <p className="bg-[#BF9BDE] w-[140px] sm:w-[200px]   rounded-md py-2 px-3 font-medium cursor-pointer">
+                      Know More
+                    </p>
                   </Link>
                   <Link to="/signeup">
-                  <p className="bg-[#BF9BDE] w-[140px] sm:w-[200px]   rounded-md py-2 px-3 font-medium cursor-pointer">
-                    Let's Start
-                  </p>
+                    <p className="bg-[#BF9BDE] w-[140px] sm:w-[200px]   rounded-md py-2 px-3 font-medium cursor-pointer">
+                      Let's Start
+                    </p>
                   </Link>
                 </div>
               </div>

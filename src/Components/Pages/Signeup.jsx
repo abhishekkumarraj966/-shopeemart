@@ -23,10 +23,10 @@ const Signeup = () => {
   };
 
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gray-100">
+    <div className="flex items-center justify-center min-h-screen bg-gray-100 logine">
       <div className="w-full max-w-md p-8 space-y-6 bg-white rounded shadow-md">
         <h2 className="text-2xl font-bold text-center text-gray-900">
-          Sign Up
+        Sign up
         </h2>
         <form className="space-y-6" onSubmit={handleSubmit}>
           <div>
@@ -68,10 +68,10 @@ const Signeup = () => {
               htmlFor="password"
               className="block text-sm font-medium text-gray-700"
             >
-              Password
+              Email OTP
             </label>
             <input
-              type="password"
+              type="text"
               name="password"
               id="password"
               value={formData.password}
@@ -80,22 +80,16 @@ const Signeup = () => {
               required
             />
           </div>
-          <div className="flex items-center justify-between">
-              <button
-                type="submit"
-                className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
-              >
-                Sign Up
-              </button>
-              <Link to="/clicknow">
-              <button
-                type="submit"
-                className="  text-black font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
-              >
-               Sig in
-              </button>
-              </Link> 
-            </div>
+          <div className="flex items-center justify-center">
+           <Link to="/nextsigneup">
+            <button
+              type="submit"
+              className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+            >
+              Next
+            </button>
+            </Link>
+          </div>
         </form>
       </div>
     </div>

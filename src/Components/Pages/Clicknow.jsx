@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Clicknow = () => {
   return (
     <div className="">
-      <div className="min-h-screen flex  justify-center items-center bg-gray-100">
+      <div className="min-h-screen flex  justify-center items-center bg-gray-100 Clicknow">
         <div className="bg-white p-8 rounded-lg shadow-md w-96">
           <h2 className="text-2xl font-bold mb-6 text-center">Login</h2>
           <form>
