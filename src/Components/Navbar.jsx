@@ -19,20 +19,23 @@ const Navbar = () => {
             <a href="/aboutus">About Us</a>
           </li>
           <li className="my-4 py-4 border-black">
-            <Link to="/pricing">Pricing</Link>
+            <a href="#pricing">Pricing</a>
           </li>
           <li className="my-4 py-4 border-black">
-            <a href="/howItWorks">How it Works</a>
+            <a href="#howItWorks">How it Works</a>
           </li>
           <li className="my-4 py-4 border-black">
-            <a href="/contactus">Contct</a>
+            <a href="/contactus">Contact</a>
           </li>
           <li className="my-4 py-4 border-black text-[#FFD323]">
             <a href="/clicknow">Sign In </a>
           </li>
-          <li className="hover:text-black transition  hover:underline  cursor-pointer text-[#000] bg-[#D4CEDB] px-4 py-2 rounded-md ">
-            <a href="/signeup">Make you Website online</a>
-          </li>
+          <div className="pb-4">
+            <li className="hover:text-black transition  hover:underline  cursor-pointer text-[#000] bg-[#D4CEDB] px-4 py-2 rounded-md  sm:mb-0 ">
+              <a href="/signeup">Make your website with one click</a>
+             
+            </li>
+          </div>
         </ul>
       </AppLayout>
     </div>
@@ -62,14 +65,14 @@ const Navbar = () => {
                     <a href="/howItWorks">How it Works</a>
                   </li>
                   <li className="hover:text-black transition  hover:underline  cursor-pointer">
-                    <a href="/contactus">Contct</a>
+                    <a href="/contactus">Contact</a>
                   </li>
 
                   <li className="hover:text-black transition  hover:underline  cursor-pointer">
                     <a href="/clicknow">Sign In</a>
                   </li>
-                  <li className="hover:text-black transition text-[12px]  hover:underline  cursor-pointer text-[#816A95] bg-[#D4CEDB] px-4 py-2 rounded-md ">
-                    <a href="/signeup">Make you Website online</a>
+                  <li className="hover:text-black transition text-[11px]  hover:underline  cursor-pointer text-[#816A95]  bg-[#D4CEDB] px-2 py-2 rounded-md ">
+                    <a href="/signeup">Make your website with one click</a>
                   </li>
                 </ul>
               </div>

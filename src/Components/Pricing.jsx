@@ -5,7 +5,7 @@ const Pricing = () => {
   return (
     <div className="bg-[#352B3D] my-10 pb-20">
       <AppLayout>
-        <div className="">
+        <div className="" id="pricing">
           <h1 className=" text-center font-semibold   text-[38px] sm:text-[50px] pt-10  pb-2 text-white">
             BiZZATA <span className="text-[#B190CD] text-[14px] sm:text-[40px]">YOUR BUSINESS PARTNER</span>
           </h1>

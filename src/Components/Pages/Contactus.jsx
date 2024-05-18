@@ -74,7 +74,7 @@ const Contactus = () => {
             <p className=" font-normal text-[16px]  sm:mb-4 "> 3rd Floor, office # 310 bizzata marketing , Sathguru Parinay, Opposite C-21 Mall, Scheme No 54, Indore, Madhya Pradesh 452010</p>
           </div>
           
-          <div className="max-w-md mx-auto p-4">
+          <div className="max-w-md mx-auto p-4 bg-slate-400 my-6 sm:my-0">
             <h2 className="text-2xl font-bold mb-4">Contact Form</h2>
             <form onSubmit={handleSubmit} className="space-y-4">
               <div>
@@ -100,7 +100,7 @@ const Contactus = () => {
                   htmlFor="country"
                   className="block text-sm font-medium text-gray-700"
                 >
-                  Country
+                  Email
                 </label>
                 <input
                   type="text"
@@ -117,7 +117,7 @@ const Contactus = () => {
                   htmlFor="businessType"
                   className="block text-sm font-medium text-gray-700"
                 >
-                  Business Type
+                  Phone No.
                 </label>
                 <input
                   type="text"
@@ -125,23 +125,6 @@ const Contactus = () => {
                   name="businessType"
                   value={formData.businessType}
                   onChange={handleChange}
-                  className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
-                  required
-                />
-              </div>
-              <div>
-                <label
-                  htmlFor="comment"
-                  className="block text-sm font-medium text-gray-700"
-                >
-                  Comment
-                </label>
-                <textarea
-                  id="comment"
-                  name="comment"
-                  value={formData.comment}
-                  onChange={handleChange}
-                  rows="4"
                   className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
                   required
                 />
