@@ -6,7 +6,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import { Autoplay, Pagination, Navigation } from "swiper/modules";
+import { Autoplay, Pagination } from "swiper/modules";
 
 const Shoopmartgivyou = () => {
   return (
@@ -41,8 +41,8 @@ const Shoopmartgivyou = () => {
             delay: 2500,
             disableOnInteraction: false,
           }}
-          navigation={true}
-          modules={[Pagination, Autoplay, Navigation]}
+          // navigation={true}
+          modules={[Pagination, Autoplay]}
           className="mySwiper"
         >
           <div className=" h-[150]">

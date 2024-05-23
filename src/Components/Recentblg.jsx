@@ -7,7 +7,7 @@ import "swiper/css/navigation";
 
 import { Navigation } from "swiper/modules";
 import AppLayout from "./AppLayout";
-
+import imgblog from"../Components/assites/blog.jpg"
 const RecentBlog = () => {
   return (
     <AppLayout>
@@ -45,7 +45,7 @@ const RecentBlog = () => {
             <SwiperSlide key={index}>
               <div className="w-[320px] lg:w-[280px] rounded-md border shadow-xl gap-2  bg-[#EAEAEA] mx-auto">
                 <img
-                  src={slide.imageSrc}
+                  src={imgblog}
                   alt="Laptop"
                   className="h-48 w-full sm:w-[100%] lg:w-[100%] rounded-t-md object-cover"
                 />
@@ -72,27 +72,3 @@ const RecentBlog = () => {
 };
 
 export default RecentBlog;
-
-// <div className=" flex gap-4 mt-6">
-// {data.map((item, index) => (
-//   <div key={index} className="w-[300px] rounded-md border shadow-xl">
-//     <img
-//       src={item.imageSrc}
-//       alt="Laptop"
-//       className="h-[200px] w-full rounded-t-md object-cover"
-//     />
-//     <div className="py-4 pb-10 px-2">
-//       <div className="flex gap-[20%] pb-1">
-//         <p className="text-[10px] font-extralight">{item.date}</p>
-//         <p className="text-[10px] font-extralight">{item.category}</p>
-//       </div>
-//       <h1 className="inline-flex items-center text-lg font-bold tracking-[0.5px]">
-//         {item.title}
-//       </h1>
-//       <p className="mt-3 text-sm text-gray-600 tracking-[.5px] leading-[24px]">
-//         {item.description}
-//       </p>
-//     </div>
-//   </div>
-// ))}
-// </div>
