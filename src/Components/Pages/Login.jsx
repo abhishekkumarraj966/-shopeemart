@@ -48,14 +48,14 @@ const Clicknow = () => {
               >
                 Sign In
               </button>
-              <Link to="/signeup">
+              {/* <Link to="/signeup">
                 <button
                   type="submit"
                   className="  text-black font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
                 >
                   Signup
                 </button>
-              </Link>
+              </Link> */}
             </div>
           </form>
         </div>

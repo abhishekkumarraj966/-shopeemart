@@ -79,7 +79,7 @@ const Feedback = () => {
               slidesPerView: 2,
               spaceBetween: 15,
             },
-            770: {
+            940: {
               slidesPerView: 3,
               spaceBetween: 15,
             },
@@ -90,11 +90,11 @@ const Feedback = () => {
         >
           {Feedbackmock.map((item, index) => (
             <SwiperSlide key={index}>
-              <div className="mt-2 my-2 h-[210px] w-[350px] sm:w-[345px] lg:w-[380px] bg-[#352B3D] text-[#e9e9e9] rounded-xl mx-auto">
+              <div className="mt-2 my-2 h-[220px] w-[350px] sm:w-[330px] lg:w-[380px] bg-[#352B3D] text-[#e9e9e9] rounded-xl mx-auto">
                 <h1 className="pt-2 px-3 text-[15px] font-sans">
                   {item.content}
                 </h1>
-                <div className="sm:pt-4 pt-[-8px] sm:pl-[170px] pl-[120px]">
+                <div className="sm:pt-4 pt-[-8px] sm:pl-[160px] pl-[120px]">
                   <div className="flex gap-0.5">
                     <img src={star} alt="" />
                     <img src={star} alt="" />

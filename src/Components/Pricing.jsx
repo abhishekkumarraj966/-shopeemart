@@ -1,13 +1,16 @@
 import React from "react";
 import AppLayout from "./AppLayout";
 
-const Pricing = () => {
+const Pricing = ({ id }) => {
   return (
-    <div className="bg-[#352B3D] my-10 pb-20">
+    <div className="bg-[#352B3D] my-10 pb-20" id={id}>
       <AppLayout>
-        <div className="" id="pricing">
+        <div className="">
           <h1 className=" text-center font-semibold   text-[38px] sm:text-[50px] pt-10  pb-2 text-white">
-            BiZZATA <span className="text-[#B190CD] text-[14px] sm:text-[40px]">YOUR BUSINESS PARTNER</span>
+            BiZZATA{" "}
+            <span className="text-[#B190CD] text-[14px] sm:text-[40px]">
+              YOUR BUSINESS PARTNER
+            </span>
           </h1>
           <p className=" font-semibold  text-center pb-14 text-[24px] mx-2 text-white">
             PRICING PLAN
@@ -44,15 +47,15 @@ const Pricing = () => {
               </p>
               <hr className=" mt-6  lg:w-[280px] sm:w-[300px] border border-dashed mx-auto" />
               <p className="text-center  pt-4 mb-[-10px]  text-[20px] sm:text-[15px] lg:text-[18px]">
-              -
+                -
               </p>
               <hr className=" mt-6  lg:w-[280px] sm:w-[300px] border border-dashed mx-auto" />
               <p className="text-center  pt-4 mb-[-10px]  text-[20px] sm:text-[15px] lg:text-[18px]">
-              -
+                -
               </p>
               <hr className=" mt-6  lg:w-[280px] sm:w-[300px] border border-dashed mx-auto" />
               <p className="text-center  pt-4 mb-[-10px]  text-[20px] sm:text-[15px] lg:text-[18px]">
-              -
+                -
               </p>
 
               <hr className=" mt-6  lg:w-[280px] sm:w-[300px] border border-dashed mx-auto" />
@@ -102,13 +105,12 @@ const Pricing = () => {
 
               <hr className=" mt-6  lg:w-[280px] sm:w-[300px] border border-dashed mx-auto" />
               <p className="text-center  pt-4 mb-[-10px]  text-[20px] sm:text-[15px] lg:text-[18px]">
-              -
+                -
               </p>
               <hr className=" mt-6  lg:w-[280px] sm:w-[300px] border border-dashed mx-auto" />
               <p className="text-center  pt-4 mb-[-10px]  text-[20px] sm:text-[15px] lg:text-[18px]">
-              -
+                -
               </p>
-              
 
               <hr className=" mt-6  lg:w-[280px] sm:w-[300px] border border-dashed mx-auto" />
 
@@ -161,7 +163,7 @@ const Pricing = () => {
               </p>
               <hr className=" mt-6  lg:w-[280px] sm:w-[300px] border border-dashed mx-auto" />
               <p className="text-center  pt-4 mb-[-10px]  text-[20px] sm:text-[15px] lg:text-[18px]">
-              -
+                -
               </p>
 
               <hr className=" mt-6  lg:w-[280px] sm:w-[300px] border border-dashed mx-auto" />
@@ -233,7 +235,7 @@ const Pricing = () => {
         </div>
         <div className="mx-2 sm:mx-10 pt-2 text-[16px] sm:text-[20px] font-medium text-white tracking-[1px]">
           <h2>NFC business Card is Free with All Plan</h2>
-          <h2>This plan is valid till 31 Dce 2024</h2>
+          <h2>This plan is valid till 31 Dec 2024</h2>
         </div>
       </AppLayout>
     </div>

@@ -26,7 +26,7 @@ const Shoopmartgivyou = () => {
               slidesPerView: 2,
               spaceBetween: 5,
             },
-            750: {
+            900: {
               slidesPerView: 3,
               spaceBetween: 15,
             },
