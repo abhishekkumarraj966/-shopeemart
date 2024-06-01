@@ -47,7 +47,7 @@ const RecentBlog = () => {
         
           {slidesData.map((slide, index) => (
             <SwiperSlide key={index}>
-              <div className="w-[320px] lg:w-[280px] rounded-md border shadow-xl gap-2  bg-[#EAEAEA] mx-auto">
+              <div className="w-[320px] sm:w-[300px] lg:w-[280px] rounded-md border shadow-xl gap-2  bg-[#EAEAEA] mx-auto">
                 <img
                   src={imgblog}
                   alt="Laptop"
