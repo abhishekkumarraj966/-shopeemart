@@ -30,9 +30,12 @@ const RecentBlog = () => {
             slidesPerView: 2,
             spaceBetween: 15,
           },
-          
+          800: {
+            slidesPerView: 3,
+            spaceBetween: 5,
+          },
           970: {
-            slidesPerView: 4,
+            slidesPerView: 3,
             spaceBetween: 5,
           },
          
