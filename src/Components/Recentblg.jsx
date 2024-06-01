@@ -34,7 +34,7 @@ const RecentBlog = () => {
             slidesPerView: 3,
             spaceBetween: 5,
           },
-          950: {
+          970: {
             slidesPerView: 4,
             spaceBetween: 5,
           },
