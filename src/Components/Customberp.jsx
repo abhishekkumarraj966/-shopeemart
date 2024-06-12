@@ -1,13 +1,13 @@
 import React from "react";
 import AppLayout from "./AppLayout";
-import bup1 from "./assites/bup1.png";
+import bup1 from "./assites/favicon.ico";
 import dataArray from "./Mock/Bcustomber";
 const Customberp = () => {
   return (
-    <div className="my-2 pt-4 mx-auto">
+    <div className="my-2 pt-4 mx-auto  h-ful lg:h-[600px]">
       <AppLayout>
         <div className="mx-4">
-          <h1 className="text-center font-semibold text-[#BF9BDE] tracking-[5px]  font-serif">
+          <h1 className="text-center font-semibold text-[#F26161] tracking-[5px]  font-serif">
             CUSTOMBER FAVORITES
           </h1>
           <div className=" mx-auto w-[270px]">
@@ -16,13 +16,13 @@ const Customberp = () => {
             </p>
           </div>
 
-          <div className=" flex  py-4  sm:justify-between justify-center md:justify-space flex-wrap mx-auto">
+          <div className=" flex  py-4  sm:gap-2 lg:gap-6 justify-center md:justify-space flex-wrap mx-auto">
             
               {dataArray.map((item, index) => (
                 <div key={index} className="lg:my-6 lg:pb-6 my-6">
-                  <div className="rounded-2xl shadow-xl flex flex-row items-start justify-start py-1 pb-2 pr-1 pl-4 box-border relative gap-2 w-[320px] sm:w-[350px] md:w-[350px]">
+                  <div className="rounded-2xl shadow-md shadow-[#f9b7b7] flex flex-row items-start justify-start py-1 pb-2 pr-1 pl-4 box-border relative gap-2 h-[150px] w-[320px] sm:w-[350px] md:w-[350px]">
                     <img
-                      className="h-[80px] sm:h-[90px] sm:w-[110px] w-[90px] relative rounded-md overflow-hidden shrink-0 object-cover"
+                      className="h-[45px] sm:h-[60px]   relative rounded-md overflow-hidden shrink-0 object-cover"
                       loading="lazy"
                       alt=""
                       src={bup1}
@@ -43,7 +43,7 @@ const Customberp = () => {
                         </h2>
                       </div>
                     </div>
-                    <div className="sm:h-12 h-8 sm:w-12 w-8 absolute !m-[0] sm:top-[-16px] top-[-12px] sm:left-[-10px] left-[-14px] text-center text-21xl text-black bg-[#D7C1EB] rounded-full">
+                    <div className="sm:h-12 h-8 sm:w-12 w-8 absolute !m-[0] sm:top-[-16px] top-[-12px] sm:left-[-10px] left-[-14px] text-center text-21xl text-white bg-[#f9b7b7] rounded-full">
                       <div className="absolute sm:top-[9px] top-[2px] sm:left-[18px] left-[12px] sm:tracking-[0.48px] leading-[24px] font-medium flex items-center justify-center sm:text-[25px] text-[20px]">
                         {index + 1}
                       </div>

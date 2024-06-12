@@ -8,7 +8,7 @@ import { FaArrowCircleRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
 const Footer = () => {
   return (
-    <div className="bg-[#352B3D] py-10">
+    <div className="bg-[#000] py-10">
       <div class="grid lg:grid-cols-5 sm:grid-cols-2 gap-2 mx-4 mb-4">
         <div class=" pl-10 lg:pt-28 sm:pt-16 pt-8">
           <div className="flex gap-2">
@@ -31,7 +31,7 @@ const Footer = () => {
         </div>
         <div class="">
           <div className="pt-2 ">
-            <h2 className="pt-4 font-semibold text-[20px] sm:text-[30px] text-[#BF9BDE] pl-2">
+            <h2 className="pt-4 font-semibold text-[20px] sm:text-[30px] text-[#EF4444] pl-2">
               Bizzata
             </h2>
             <p className="mt-2 mb-1  text-[16px] text-white cursor-pointer hover:underline pl-4">
@@ -53,7 +53,7 @@ const Footer = () => {
         </div>
         <div class=" ">
           <div className="pt-2 ">
-            <h2 className="pt-4 font-semibold text-[20px] sm:text-[30px] text-[#BF9BDE] pl-2">
+            <h2 className="pt-4 font-semibold text-[20px] sm:text-[30px] text-[#EF4444] pl-2">
               Customer Service
             </h2>
             <p className="mt-2 mb-1  text-[16px] text-white cursor-pointer hover:underline pl-4">
@@ -75,7 +75,7 @@ const Footer = () => {
         </div>
         <div class="">
           <div className="pt-2 ">
-            <h2 className="pt-4 font-semibold text-[20px] sm:text-[30px] text-[#BF9BDE] pl-2">
+            <h2 className="pt-4 font-semibold text-[20px] sm:text-[30px] text-[#EF4444] pl-2">
               important Links
             </h2>
             <p className="mt-2 mb-1  text-[16px] text-white cursor-pointer hover:underline pl-4">
@@ -100,7 +100,7 @@ const Footer = () => {
         </div>
         <div class="">
           <div className="pt-2 ">
-            <h2 className="pt-4 font-semibold text-[20px] sm:text-[30px] text-[#BF9BDE] pl-2">
+            <h2 className="pt-4 font-semibold text-[20px] sm:text-[30px] text-[#EF4444] pl-2">
               Subscribe Us
             </h2>
             <div className="leading-[13px]">
@@ -122,9 +122,9 @@ const Footer = () => {
               ></input>
               <button
                 type="button"
-                className="ml-4 rounded-full bg-black px-3 py-3 text-sm font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
+                className="ml-4 rounded-full bg-[#EF4444] px-3 py-3 text-sm font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
               >
-                <FaArrowCircleRight className="h-4 w-4" />
+                <FaArrowCircleRight className="h-4 w-4 bg-[#EF4444]" />
               </button>
             </form>
           </div>

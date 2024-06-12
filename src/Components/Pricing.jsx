@@ -8,7 +8,7 @@ const Pricing = ({ id }) => {
         <div className="">
           <h1 className=" text-center font-semibold   text-[38px] sm:text-[50px] pt-10  pb-2 text-white">
             BiZZATA{" "}
-            <span className="text-[#B190CD] text-[14px] sm:text-[40px]">
+            <span className="text-[#EF4444] text-[14px] sm:text-[40px]">
               YOUR BUSINESS PARTNER
             </span>
           </h1>
@@ -24,7 +24,7 @@ const Pricing = ({ id }) => {
               </h1>
               <hr className=" mt-6  w-[340px]   sm:w-[40%] mx-auto h-1" />
               <div className=" text-center">
-                <h3 className=" font-bold text-[35px] sm:text-[35px] tracking-[1px] leading-10 text-[#722174] pt-4">
+                <h3 className=" font-bold text-[35px] sm:text-[35px] tracking-[1px] leading-10 text-[#EF4444] pt-4">
                   {" "}
                   <span>RS</span> 4999 /-
                 </h3>
@@ -62,7 +62,7 @@ const Pricing = ({ id }) => {
 
               <div className="my-6  mx-6 ">
                 <a href="">
-                  <button class=" bg-[#BF9BDE] w-full   font-bold py-2 px-4 rounded">
+                  <button class=" bg-[#EF4444] w-full   font-bold py-2 px-4 rounded">
                     Select Plan
                   </button>
                 </a>
@@ -77,7 +77,7 @@ const Pricing = ({ id }) => {
               </h1>
               <hr className=" mt-6  w-[340px]   sm:w-[40%] mx-auto h-1" />
               <div className=" text-center">
-                <h3 className=" font-bold text-[35px] sm:text-[35px] tracking-[1px] leading-10 text-[#722174] pt-4">
+                <h3 className=" font-bold text-[35px] sm:text-[35px] tracking-[1px] leading-10 text-[#EF4444] pt-4">
                   {" "}
                   <span>RS</span> 7999/-
                 </h3>
@@ -116,7 +116,7 @@ const Pricing = ({ id }) => {
 
               <div className="my-6  mx-6 ">
                 <a href="">
-                  <button class=" bg-[#BF9BDE] w-full   font-bold py-2 px-4 rounded">
+                  <button class=" bg-[#EF4444] w-full   font-bold py-2 px-4 rounded">
                     Select Plan
                   </button>
                 </a>
@@ -131,7 +131,7 @@ const Pricing = ({ id }) => {
               </h1>
               <hr className=" mt-6  w-[340px]   sm:w-[40%] mx-auto h-1" />
               <div className=" text-center">
-                <h3 className=" font-bold text-[35px] sm:text-[35px] tracking-[1px] leading-10 text-[#722174] pt-4">
+                <h3 className=" font-bold text-[35px] sm:text-[35px] tracking-[1px] leading-10 text-[#EF4444] pt-4">
                   {" "}
                   <span>RS</span> 9999/-
                 </h3>
@@ -170,7 +170,7 @@ const Pricing = ({ id }) => {
 
               <div className="my-6  mx-6">
                 <a href="">
-                  <button class=" bg-[#BF9BDE] w-full   font-bold py-2 px-4 rounded">
+                  <button class=" bg-[#EF4444] w-full   font-bold py-2 px-4 rounded">
                     Select Plan
                   </button>
                 </a>
@@ -185,7 +185,7 @@ const Pricing = ({ id }) => {
               </h1>
               <hr className=" mt-6  w-[340px]   sm:w-[40%] mx-auto h-1" />
               <div className=" text-center">
-                <h3 className=" font-bold text-[35px] sm:text-[35px] tracking-[1px] leading-10 text-[#722174] pt-4">
+                <h3 className=" font-bold text-[35px] sm:text-[35px] tracking-[1px] leading-10 text-[#EF4444] pt-4">
                   {" "}
                   <span>RS</span> 14999/-
                 </h3>
@@ -225,7 +225,7 @@ const Pricing = ({ id }) => {
 
               <div className="my-6  mx-6 lg:mt-[24px] ">
                 <a href="">
-                  <button class=" bg-[#BF9BDE] w-full   font-bold py-2 px-4 rounded">
+                  <button class=" bg-[#EF4444E] w-full   font-bold py-2 px-4 rounded">
                     Select Plan
                   </button>
                 </a>

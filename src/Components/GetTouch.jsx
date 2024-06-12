@@ -10,7 +10,7 @@ const GetTouch = () => {
             <div className=" ">
               <h1 className=" lg:mx-16 text-start  font-bold sm:text-[40px] text-[30px] pl-2 tracking-[1px] sm:leading-[50px] leading-[38px] ">
                 <span className="text-white">get Touch With </span>
-                <span className="text-[#B190CD]">Bizzata </span>
+                <span className="text-[#EF4444]">Bizzata </span>
                 <span className="text-white">To increase Your Business</span>
               </h1>
               <p className="mt-1 sm:mt-2 lg:mt-2 text-[#E7E7E7] tracking-[0.5px] pl-2 text-[10px] sm:text-[12px] md:text-[16px] mx-2 sm:leading-[20px]">
@@ -54,7 +54,7 @@ const GetTouch = () => {
             </div>
             <button
               type="submit"
-              className="bg-[#BF9BDE] w-full text-white rounded-md py-2 px-3 mt-4 font-medium"
+              className="bg-[#EF4444] w-full text-white rounded-md py-2 px-3 mt-4 font-medium"
             >
               Submit
             </button>

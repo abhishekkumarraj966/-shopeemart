@@ -19,7 +19,7 @@ const Feedback = () => {
               <div className="">
                 <h1 className=" text-start  font-bold sm:text-[30px] text-[20px] pl-4 tracking-[2px] sm:leading-[20px] leading-[15px]">
                   <span className="text-white">Give</span>{" "}
-                  <span className="text-[#B190CD]">Valuable</span>
+                  <span className="text-[#EF4444]">Valuable</span>
                 </h1>
                 <h1 className=" text-start  font-bold sm:text-[30px] text-[20px] pl-4 tracking-[2px] sm:leading-[50px] leading-[30px]">
                   {" "}
@@ -58,7 +58,7 @@ const Feedback = () => {
               </div>
               <button
                 type="submit"
-                className="bg-[#BF9BDE] w-[80%]  text-white rounded-md py-2 px-3 mt-4 font-medium"
+                className="bg-[#EF4444] w-[80%]  text-white rounded-md py-2 px-3 mt-4 font-medium"
               >
                 Submit
               </button>

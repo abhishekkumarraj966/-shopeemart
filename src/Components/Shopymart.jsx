@@ -4,7 +4,7 @@ import spmart from "./assites/spMart.png";
 import { Link } from "react-router-dom";
 const Shopymart = () => {
   return (
-    <div className="bg-[#352B3D]">
+    <div className="bg-[#000]">
       <AppLayout>
         <div className="py-10">
           <h1 className="text-center font-bold text-[30px] text-[#fff] tracking-[2px] sm:tracking-[5px]  font-serif">
@@ -38,12 +38,12 @@ const Shopymart = () => {
                 </p>
                 <div className="flex pt-10 gap-14">
                   <Link to="/aboutus">
-                    <p className="bg-[#BF9BDE] w-[140px] sm:w-[200px]   rounded-md py-2 px-3 font-medium cursor-pointer">
+                    <p className="bg-[#4b4155] w-[140px] sm:w-[200px]   rounded-md py-2 px-3 font-medium cursor-pointer">
                       Know More
                     </p>
                   </Link>
                   <Link to="/signeup">
-                    <p className="bg-[#BF9BDE] w-[140px] sm:w-[200px]   rounded-md py-2 px-3 font-medium cursor-pointer">
+                    <p className="bg-[#52445f] w-[140px] sm:w-[200px]   rounded-md py-2 px-3 font-medium cursor-pointer">
                       Let's Start
                     </p>
                   </Link>
@@ -55,7 +55,7 @@ const Shopymart = () => {
               <img
                 src={spmart}
                 alt=""
-                className="mt-[-50px] lg:mt-[-50px] sm:mt-[20px] h-[350px] sm:h-[400px] lg:h-[400px] w-[110%]"
+                className="mt-[-40px] lg:mt-[-50px] sm:mt-[20px] h-[335px] sm:h-[400px] lg:h-[400px] w-[110%]"
               />
             </div>
           </div>

@@ -1,3 +1,4 @@
+
 const Bcustomber = [
   {
     name: "Hailey Food",
@@ -29,14 +30,7 @@ const Bcustomber = [
   },
   {
     name: "Hailey Food",
-    description: "Best food nectar you ",
-    location: "Gandhinagar Gujarat",
-    image: "",
-    description2: "wish to get",
-  },
-  {
-    name: "Hailey Food",
-    description: "Best food nectar you ",
+    description: "Best food nectar you Best food nectar you  ",
     location: "Gandhinagar Gujarat",
     image: "",
     description2: "wish to get",

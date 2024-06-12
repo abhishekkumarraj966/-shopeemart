@@ -11,7 +11,7 @@ import AppLayout from "./AppLayout";
 
 const HowItWorks = ({id}) => {
   return (
-    <div className=" bg-[#352B3D] pb-[50px] pt-[10px] sm:h-full overflow-hidden " id={id}>
+    <div className=" bg-[#000] pb-[50px] pt-[10px] sm:h-full overflow-hidden " id={id}>
       <AppLayout>
         <h1 className="text-center text-white text-[40px] font-bold sm:pt-8 ">
           How it Works ?

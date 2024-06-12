@@ -3,7 +3,7 @@ import { FaTimes } from "react-icons/fa";
 import { CiMenuBurger } from "react-icons/ci";
 import AppLayout from "./AppLayout";
 import { Link } from "react-router-dom";
-
+import logo from "./assites/logo.png"
 const Navbar = () => {
   const [click, setClick] = useState(false);
 
@@ -45,8 +45,8 @@ const Navbar = () => {
           <div className="h-16 flex justify-between z-20 text-black lg:py-5 px-[20px] py-4 ">
             <div className="flex items-center flex-1">
               <a href="/">
-                <span className="text-3xl font-bold">Bizzata</span>
-                {/* <img src="/" alt="comLogo" /> */}
+                {/* <span className="text-3xl font-bold">Bizzata</span> */}
+                <img src={logo} alt="comLogo" className="h-[50px] w-full" />
               </a>
             </div>
             <div className="md:flex lg:flex-1 items-start justify-end font-normal hidden">
