@@ -3,7 +3,7 @@ import AppLayout from "./AppLayout";
 
 const Pricing = ({ id }) => {
   return (
-    <div className="bg-[#352B3D] my-10 pb-20" id={id}>
+    <div className="bg-[#000]  my-10 pb-20" id={id}>
       <AppLayout>
         <div className="">
           <h1 className=" text-center font-semibold   text-[38px] sm:text-[50px] pt-10  pb-2 text-white">
@@ -16,49 +16,57 @@ const Pricing = ({ id }) => {
             PRICING PLAN
           </p>
         </div>
-        <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-2 mx-2 lg:mx-0">
+        <div class="grid sm:grid-cols-3 lg:grid-cols-3 gap-2 mx-2 lg:mx-0"> 
+          
           <div class="mx-auto  ">
-            <div className="sm:w-[320px] w-[100%] lg:w-[320px] rounded-xl hover:bg-[#E7E7E7] pb-10 hover:text-black text-white  pt-6 ">
+            <div className="sm:w-[255px] w-[100%] lg:w-[320px] rounded-xl bg-[#C8C8C8] hover:bg-black text-black hover:text-white sm:hover:bg-[#E7E7E7] pb-10 sm:hover:text-black sm:text-white  sm:bg-[#000]  pt-6 mb-4 sm:mb-0 ">
               <h1 className="text-center font-extrabold  tracking-[2px] text-[40px] leading-[5px]">
                 Basic
               </h1>
-              <hr className=" mt-6  w-[340px]   sm:w-[40%] mx-auto h-1" />
+              <hr className=" mt-6  w-[340px]   sm:w-[30%] mx-auto h-1" />
+
+              <h3 className=" text-center font-bold text-[35px] sm:text-[35px] tracking-[1px] leading-10 text-[#EF4444] pt-4">
+                {" "}
+                <span className="text-[35px] line-through">&#8377;</span>
+                <span className="line-through"> 6999 /-</span>
+              </h3>
+
               <div className=" text-center">
                 <h3 className=" font-bold text-[35px] sm:text-[35px] tracking-[1px] leading-10 text-[#EF4444] pt-4">
                   {" "}
-                  <span>RS</span> 4999 /-
+                  <span>&#8377;</span> 4999 /-
                 </h3>
               </div>
-              <hr className=" mt-6  lg:w-[280px] sm:w-[300px] border border-dashed mx-auto" />
+              <hr className=" mt-6  lg:w-[280px] sm:w-[230px] border border-dashed mx-auto text-black" />
               <p className="text-center  pt-4 mb-[-10px]  text-[20px] sm:text-[15px] lg:text-[18px]">
                 Customer panel
               </p>
-              <hr className=" mt-6  lg:w-[280px] sm:w-[300px] border border-dashed mx-auto" />
+              <hr className=" mt-6  lg:w-[280px] sm:w-[230px] border border-dashed mx-auto" />
               <p className="text-center  pt-4 mb-[-10px]  text-[20px] sm:text-[15px] lg:text-[18px]">
                 products -50
               </p>
-              <hr className=" mt-6  lg:w-[280px] sm:w-[300px] border border-dashed mx-auto" />
+              <hr className=" mt-6  lg:w-[280px] sm:w-[230px] border border-dashed mx-auto" />
               <p className="text-center  pt-4 mb-[-10px]  text-[20px] sm:text-[15px] lg:text-[18px]">
                 Category -3
               </p>
-              <hr className=" mt-6  lg:w-[280px] sm:w-[300px] border border-dashed mx-auto" />
+              <hr className=" mt-6  lg:w-[280px] sm:w-[230px] border border-dashed mx-auto" />
               <p className="text-center  pt-4 mb-[-10px] text-[20px] sm:text-[15px] lg:text-[18px]">
                 Time Frame - 1 year
               </p>
-              <hr className=" mt-6  lg:w-[280px] sm:w-[300px] border border-dashed mx-auto" />
+              <hr className=" mt-6  lg:w-[280px] sm:w-[230px] border border-dashed mx-auto" />
               <p className="text-center  pt-4 mb-[-10px]  text-[20px] sm:text-[15px] lg:text-[18px]">
                 -
               </p>
-              <hr className=" mt-6  lg:w-[280px] sm:w-[300px] border border-dashed mx-auto" />
+              <hr className=" mt-6  lg:w-[280px] sm:w-[230px] border border-dashed mx-auto" />
               <p className="text-center  pt-4 mb-[-10px]  text-[20px] sm:text-[15px] lg:text-[18px]">
                 -
               </p>
-              <hr className=" mt-6  lg:w-[280px] sm:w-[300px] border border-dashed mx-auto" />
+              <hr className=" mt-6  lg:w-[280px] sm:w-[230px] border border-dashed mx-auto" />
               <p className="text-center  pt-4 mb-[-10px]  text-[20px] sm:text-[15px] lg:text-[18px]">
                 -
               </p>
 
-              <hr className=" mt-6  lg:w-[280px] sm:w-[300px] border border-dashed mx-auto" />
+              <hr className=" mt-6  lg:w-[280px] sm:w-[230px]  border border-dashed mx-auto" />
 
               <div className="my-6  mx-6 ">
                 <a href="">
@@ -71,48 +79,53 @@ const Pricing = ({ id }) => {
           </div>
 
           <div class="mx-auto  ">
-            <div className="sm:w-[320px] w-[100%] lg:w-[320px] rounded-xl hover:bg-[#E7E7E7] pb-10 hover:text-black text-white  pt-6 ">
+            <div className="sm:w-[255px] w-[100%] lg:w-[320px] rounded-xl bg-[#C8C8C8] hover:bg-black text-black hover:text-white sm:hover:bg-[#E7E7E7] pb-10 sm:hover:text-black sm:text-white  sm:bg-[#000] pt-6 mb-4 sm:mb-0">
               <h1 className="text-center font-extrabold  tracking-[2px] text-[40px] leading-[5px]">
                 Standard
               </h1>
               <hr className=" mt-6  w-[340px]   sm:w-[40%] mx-auto h-1" />
               <div className=" text-center">
+                <h3 className=" text-center font-bold text-[35px] sm:text-[35px] tracking-[1px] leading-10 text-[#EF4444] pt-4">
+                  {" "}
+                  <span className="text-[35px] line-through">&#8377;</span>
+                  <span className="line-through"> 9999 /-</span>
+                </h3>
                 <h3 className=" font-bold text-[35px] sm:text-[35px] tracking-[1px] leading-10 text-[#EF4444] pt-4">
                   {" "}
-                  <span>RS</span> 7999/-
+                  <span>&#8377;</span> 7999/-
                 </h3>
               </div>
-              <hr className=" mt-6  lg:w-[280px] sm:w-[300px] border border-dashed mx-auto" />
+              <hr className=" mt-6  lg:w-[280px] sm:w-[230px] border border-dashed mx-auto" />
               <p className="text-center  pt-4 mb-[-10px]  text-[20px] sm:text-[15px] lg:text-[18px]">
                 Customer panel
               </p>
-              <hr className=" mt-6  lg:w-[280px] sm:w-[300px] border border-dashed mx-auto" />
+              <hr className=" mt-6  lg:w-[280px] sm:w-[230px] border border-dashed mx-auto" />
               <p className="text-center  pt-4 mb-[-10px]  text-[20px] sm:text-[15px] lg:text-[18px]">
                 products -75
               </p>
-              <hr className=" mt-6  lg:w-[280px] sm:w-[300px] border border-dashed mx-auto" />
+              <hr className=" mt-6  lg:w-[280px] sm:w-[230px] border border-dashed mx-auto" />
               <p className="text-center  pt-4 mb-[-10px]  text-[20px] sm:text-[15px] lg:text-[18px]">
                 Category -5
               </p>
-              <hr className=" mt-6  lg:w-[280px] sm:w-[300px] border border-dashed mx-auto" />
+              <hr className=" mt-6  lg:w-[280px] sm:w-[230px] border border-dashed mx-auto" />
               <p className="text-center  pt-4 mb-[-10px] text-[20px] sm:text-[15px] lg:text-[18px]">
                 Time Frame - 1 year
               </p>
-              <hr className=" mt-6  lg:w-[280px] sm:w-[300px] border border-dashed mx-auto" />
+              <hr className=" mt-6  lg:w-[280px] sm:w-[230px] border border-dashed mx-auto" />
               <p className="text-center  pt-4 mb-[-10px] text-[20px] sm:text-[15px] lg:text-[18px]">
                 Top 10 listing
               </p>
 
-              <hr className=" mt-6  lg:w-[280px] sm:w-[300px] border border-dashed mx-auto" />
+              <hr className=" mt-6  lg:w-[280px] sm:w-[230px] border border-dashed mx-auto" />
               <p className="text-center  pt-4 mb-[-10px]  text-[20px] sm:text-[15px] lg:text-[18px]">
                 -
               </p>
-              <hr className=" mt-6  lg:w-[280px] sm:w-[300px] border border-dashed mx-auto" />
+              <hr className=" mt-6  lg:w-[280px] sm:w-[230px] border border-dashed mx-auto" />
               <p className="text-center  pt-4 mb-[-10px]  text-[20px] sm:text-[15px] lg:text-[18px]">
                 -
               </p>
 
-              <hr className=" mt-6  lg:w-[280px] sm:w-[300px] border border-dashed mx-auto" />
+              <hr className=" mt-6  lg:w-[280px] sm:w-[230px] border border-dashed mx-auto" />
 
               <div className="my-6  mx-6 ">
                 <a href="">
@@ -125,48 +138,53 @@ const Pricing = ({ id }) => {
           </div>
 
           <div class="mx-auto  ">
-            <div className="sm:w-[320px] w-[100%] lg:w-[320px] rounded-xl hover:bg-[#E7E7E7] pb-10 hover:text-black text-white  pt-6 ">
+            <div className="sm:w-[255px] w-[100%] lg:w-[320px] rounded-xl bg-[#C8C8C8] hover:bg-black text-black hover:text-white sm:hover:bg-[#E7E7E7] pb-10 sm:hover:text-black sm:text-white  sm:bg-[#000]  pt-6 mb-4 sm:mb-0 ">
               <h1 className="text-center font-extrabold  tracking-[2px] text-[40px] leading-[5px]">
                 Deluxe
               </h1>
-              <hr className=" mt-6  w-[340px]   sm:w-[40%] mx-auto h-1" />
+              <hr className=" mt-6  w-[340px]   sm:w-[30%] mx-auto h-1" />
               <div className=" text-center">
+                <h3 className=" text-center font-bold text-[35px] sm:text-[35px] tracking-[1px] leading-10 text-[#EF4444] pt-4">
+                  {" "}
+                  <span className="text-[35px] line-through">&#8377;</span>
+                  <span className="line-through"> 14999 /-</span>
+                </h3>
                 <h3 className=" font-bold text-[35px] sm:text-[35px] tracking-[1px] leading-10 text-[#EF4444] pt-4">
                   {" "}
-                  <span>RS</span> 9999/-
+                  <span>&#8377;</span> 9999/-
                 </h3>
               </div>
-              <hr className=" mt-6  lg:w-[280px] sm:w-[300px] border border-dashed mx-auto" />
+              <hr className=" mt-6  lg:w-[280px] sm:w-[230px] border border-dashed mx-auto" />
               <p className="text-center  pt-4 mb-[-10px]  text-[20px] sm:text-[15px] lg:text-[18px]">
                 Customer panel
               </p>
-              <hr className="  mt-6  lg:w-[280px] sm:w-[300px] border border-dashed mx-auto" />
+              <hr className="  mt-6  lg:w-[280px] sm:w-[230px] border border-dashed mx-auto" />
               <p className="text-center  pt-4 mb-[-10px]  text-[20px] sm:text-[15px] lg:text-[18px]">
                 products -100
               </p>
-              <hr className=" mt-6  lg:w-[280px] sm:w-[300px] border border-dashed mx-auto" />
+              <hr className=" mt-6  lg:w-[280px] sm:w-[230px] border border-dashed mx-auto" />
               <p className="text-center  pt-4 mb-[-10px]  text-[20px] sm:text-[15px] lg:text-[18px]">
                 Category -8
               </p>
-              <hr className="  mt-6  lg:w-[280px] sm:w-[300px] border border-dashed mx-auto" />
+              <hr className="  mt-6  lg:w-[280px] sm:w-[230px]  border border-dashed mx-auto" />
               <p className="text-center  pt-4 mb-[-10px] text-[20px] sm:text-[15px] lg:text-[18px]">
                 Time Frame - 1 year
               </p>
-              <hr className="  mt-6  lg:w-[280px] sm:w-[300px] border border-dashed mx-auto" />
+              <hr className="  mt-6  lg:w-[280px] sm:w-[230px] border border-dashed mx-auto" />
               <p className="text-center  pt-4 mb-[-10px] text-[20px] sm:text-[15px] lg:text-[18px]">
                 Top 05 listing
               </p>
 
-              <hr className="  mt-6  lg:w-[280px] sm:w-[300px] border border-dashed mx-auto" />
+              <hr className="  mt-6  lg:w-[280px] sm:w-[230px] border border-dashed mx-auto" />
               <p className="text-center  pt-4 mb-[-10px] text-[20px] sm:text-[15px] lg:text-[18px]">
                 Banner ads - month
               </p>
-              <hr className=" mt-6  lg:w-[280px] sm:w-[300px] border border-dashed mx-auto" />
+              <hr className=" mt-6  lg:w-[280px] sm:w-[230px] border border-dashed mx-auto" />
               <p className="text-center  pt-4 mb-[-10px]  text-[20px] sm:text-[15px] lg:text-[18px]">
                 -
               </p>
 
-              <hr className=" mt-6  lg:w-[280px] sm:w-[300px] border border-dashed mx-auto" />
+              <hr className=" mt-6  lg:w-[280px] sm:w-[230px] border border-dashed mx-auto" />
 
               <div className="my-6  mx-6">
                 <a href="">
@@ -178,16 +196,21 @@ const Pricing = ({ id }) => {
             </div>
           </div>
 
-          <div class="mx-auto  ">
-            <div className="sm:w-[320px] w-[100%] lg:w-[320px] rounded-xl hover:bg-[#E7E7E7] pb-10 hover:text-black text-white  pt-6 ">
+          {/* <div class="mx-auto  ">
+            <div className="sm:w-[320px] w-[100%] lg:w-[320px] rounded-xl bg-[#C8C8C8] hover:bg-black text-black hover:text-white sm:hover:bg-[#E7E7E7] pb-10 sm:hover:text-black sm:text-white  sm:bg-[#000]  pt-6 mb-4 sm:mb-0">
               <h1 className="text-center font-extrabold  tracking-[2px] text-[40px] leading-[5px]">
                 Premium
               </h1>
               <hr className=" mt-6  w-[340px]   sm:w-[40%] mx-auto h-1" />
               <div className=" text-center">
+                <h3 className=" text-center font-bold text-[35px] sm:text-[35px] tracking-[1px] leading-10 text-[#EF4444] pt-4">
+                  {" "}
+                  <span className="text-[40px] line-through">&#8377;</span>
+                  <span className="line-through"> 4999 /-</span>
+                </h3>
                 <h3 className=" font-bold text-[35px] sm:text-[35px] tracking-[1px] leading-10 text-[#EF4444] pt-4">
                   {" "}
-                  <span>RS</span> 14999/-
+                  <span>&#8377;</span> 14999/-
                 </h3>
               </div>
               <hr className=" mt-6  lg:w-[280px] sm:w-[300px] border border-dashed mx-auto" />
@@ -225,13 +248,13 @@ const Pricing = ({ id }) => {
 
               <div className="my-6  mx-6 lg:mt-[24px] ">
                 <a href="">
-                  <button class=" bg-[#EF4444E] w-full   font-bold py-2 px-4 rounded">
+                  <button class=" bg-[#EF4444] w-full   font-bold py-2 px-4 rounded">
                     Select Plan
                   </button>
                 </a>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
         <div className="mx-2 sm:mx-10 pt-2 text-[16px] sm:text-[20px] font-medium text-white tracking-[1px]">
           <h2>NFC business Card is Free with All Plan</h2>

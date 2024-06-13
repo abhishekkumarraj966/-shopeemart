@@ -4,7 +4,7 @@ import AppLayout from "./AppLayout";
 const GetTouch = () => {
   return (
     <AppLayout>
-      <div className="sm:py-10  py-8 sm:pt-20 bg-[#352B3D] mt-4 sm:rounded-xl  my-6">
+      <div className="sm:py-10  py-8 sm:pt-20 bg-[#000]  mt-4 sm:rounded-xl  my-6">
         <div className="grid grid-cols-1 sm:grid-cols-2 ">
           <div className=" p-4 ">
             <div className=" ">
@@ -22,19 +22,19 @@ const GetTouch = () => {
 
           <div className="p-4 sm:mx-3 mx-[10px] ">
             <div className="sm:w-[80%] ">
-            <p className="text-white">Name</p>
+            <p className=" sm:text-white text-[#EF4444]">Name</p>
             <input
               type="text"
               placeholder="Name"
               className=" w-full rounded-md h-8 py-1 px-2 mt-1"
             />
-            <p className="text-white mt-2">Email.</p>
+            <p className="sm:text-white text-[#EF4444] mt-2">Email.</p>
             <input
               type="email"
               placeholder="abcd@gmail.com"
               className="w-full rounded-md h-8 py-1 px-2 mt-1"
             />
-            <p className="text-white mt-2">Phone</p>
+            <p className="sm:text-white text-[#EF4444] mt-2">Phone</p>
             <input
               type="tel"
               placeholder="620XXXX083"

@@ -108,7 +108,7 @@ const HomCategory = () => {
                 </Link>
               </div>
               <Link to="/category">
-                <h2 className="pt-1 font-semibold text-[14px] mx-auto text-[#1274C0]">
+                <h2 className="pt-1 font-semibold text-[14px] mx-auto text-[#F26161]">
                   Show more
                 </h2>
               </Link>
@@ -238,7 +238,7 @@ const HomCategory = () => {
                 </Link>
               </div>
               <Link to="/category">
-                <h2 className="pt-1 font-semibold text-[14px] mx-auto text-[#1274C0]">
+                <h2 className="pt-1 font-semibold text-[14px] mx-auto text-[#F26161]">
                   Show more
                 </h2>
               </Link>
@@ -487,7 +487,7 @@ const HomCategory = () => {
                 </Link>
               </div>
               <Link to="/category">
-                <h2 className="pt-1 font-semibold text-[14px] mx-auto text-[#1274C0]">
+                <h2 className="pt-1 font-semibold text-[14px] mx-auto text-[#F26161]">
                   Show more
                 </h2>
               </Link>

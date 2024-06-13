@@ -23,6 +23,7 @@ const Hero = () => {
   return (
     <div>
       <AppLayout>
+      {/* input box */}
         <div className="lg:mx-[18%] mx-6 sm:mx-[10%]">
           <div className="py-4 pt-10 ">
             <h2 className="pb-2 text-[28px] font-bold lg:mx-[30%] sm:mx-[20%] mx-6">
@@ -125,7 +126,7 @@ const Hero = () => {
             <img
               src={image.img}
               alt={image.alt}
-              className="w-full h-auto object-cover rounded-md mb-3 shadow-lg"
+              className="w-full lg:h-[650px]  object-cover rounded-md mb-3 shadow-lg"
             />
           </SwiperSlide>
         ))}

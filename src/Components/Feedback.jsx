@@ -13,7 +13,7 @@ const Feedback = () => {
   return (
     <div className="">
       <AppLayout>
-        <div className="sm:py-10  py-8 sm:pt-20 bg-[#352B3D] mt-4 sm:rounded-xl  my-6">
+        <div className="sm:py-10  py-8 sm:pt-20 bg-[#000] mt-4 sm:rounded-xl  my-6">
           <div className="grid grid-cols-1 sm:grid-cols-2 mt-4 ">
             <div className=" p-4 ">
               <div className="">
@@ -36,19 +36,19 @@ const Feedback = () => {
             </div>
 
             <div className="p-4 mx-3 sm:mt-[-60px]">
-              <p className="text-white">Name</p>
+              <p className="sm:text-white text-[#EF4444]">Name</p>
               <input
                 type="text"
                 placeholder="Name"
                 className=" w-[80%] rounded-md h-8 py-1 px-2 mt-1"
               />
-              <p className="text-white mt-5">Feedback</p>
+              <p className="sm:text-white text-[#EF4444] mt-5">Feedback</p>
               <input
                 type="text"
                 placeholder="Type your message..."
                 className=" w-[80%] rounded-md h-14 lg:h-24 px-2 mt-1"
               />
-              <p className="text-white mt-5">Rating</p>
+              <p className="sm:text-white text-[#EF4444] mt-5">Rating</p>
               <div className="flex gap-1.5">
                 <img src={star} alt="" />
                 <img src={star} alt="" />
@@ -90,7 +90,7 @@ const Feedback = () => {
         >
           {Feedbackmock.map((item, index) => (
             <SwiperSlide key={index}>
-              <div className="mt-2 my-2 h-[220px] w-[350px] sm:w-[330px] lg:w-[380px] bg-[#352B3D] text-[#e9e9e9] rounded-xl mx-auto">
+              <div className="mt-2 my-2 h-[220px] w-[350px] sm:w-[330px] lg:w-[380px] bg-[#000] text-[#e9e9e9] rounded-xl mx-auto">
                 <h1 className="pt-2 px-3 text-[15px] font-sans">
                   {item.content}
                 </h1>

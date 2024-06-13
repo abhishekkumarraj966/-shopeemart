@@ -1,9 +1,9 @@
 import React from "react";
-import img1 from "./assites/Fimg.svg";
-import img2 from "./assites/Fimg2.svg";
-import img3 from "./assites/insta.svg";
-import img4 from "./assites/Amozon.svg";
-import img5 from "./assites/youTub.svg";
+import img1 from "./assites/Fimg.png";
+import img2 from "./assites/Fimg2.png";
+import img3 from "./assites/Fimg3.png";
+import img4 from "./assites/Fimg4.png";
+import img5 from "./assites/Fimg5.png";
 import { FaArrowCircleRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
 const Footer = () => {
