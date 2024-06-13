@@ -47,7 +47,7 @@ const Customberp = () => {
                       </h2>
                     </div>
                   </div>
-                  <div className="sm:h-12 h-8 sm:w-12 w-8 absolute !m-[0] sm:top-[-16px] top-[-12px] sm:left-[-10px] left-[-14px] text-center text-21xl text-white  bg-[#FF0A00] sm:bg-[#f9b7b7] rounded-full">
+                  <div className="sm:h-12 h-8 sm:w-12 w-8 absolute !m-[0] sm:top-[-16px] top-[-12px] sm:left-[-10px] left-[-14px] text-center text-21xl text-white  bg-[#FF0A00]  rounded-full">
                     <div className="absolute sm:top-[9px] top-[2px] sm:left-[18px] left-[12px] sm:tracking-[0.48px] leading-[24px] font-medium flex items-center justify-center sm:text-[25px] text-[20px]">
                       {index + 1}
                     </div>

@@ -26,7 +26,7 @@ const Hero = () => {
       {/* input box */}
         <div className="lg:mx-[18%] mx-6 sm:mx-[10%]">
           <div className="py-4 pt-10 ">
-            <h2 className="pb-2 text-[28px] font-bold lg:mx-[30%] sm:mx-[20%] mx-6">
+            <h2 className="pb-2 text-[28px] font-bold text-center">
             Search your{" "}
               <span className="text-[#EF4444] text-[35px]">Business</span>
             </h2>
