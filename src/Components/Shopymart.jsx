@@ -59,7 +59,7 @@ const Shopymart = () => {
 
             <div className="p-4 hidden sm:block">
               <img
-                src={spmart}
+                src={phonr}
                 alt=""
                 className="mt-[-40px] lg:mt-[-50px] sm:mt-[20px] h-[335px] sm:h-[400px] lg:h-[400px] w-[110%]"
               />
