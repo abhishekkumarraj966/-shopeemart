@@ -94,18 +94,18 @@ const HowItWorks = ({ id }) => {
             <img
               src={M3}
               alt=""
-              className="h-[400px] items-center my-8 mb-16 "
+              className="h-[100%] items-center my-8 mb-16 "
             />
           </div>
           <div className="">
             <img
               src={M2}
               alt=""
-              className="h-[400px] items-center  mb-20 ml-[10%]"
+              className="h-[400px] items-center  mb-20 ml-[8%]"
             />
           </div>
           <div className="">
-            <img src={M1} alt="" className="h-[400px] items-center  mb-8" />
+            <img src={M1} alt="" className="h-[100%] items-center  mb-8" />
           </div>
         </div>
       </AppLayout>

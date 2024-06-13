@@ -123,11 +123,13 @@ const Hero = () => {
       >
         {slider.map((image, index) => (
           <SwiperSlide key={index}>
+           <div className="pb-4">
             <img
               src={image.img}
               alt={image.alt}
               className="w-full lg:h-[650px]  object-cover rounded-md mb-3 shadow-lg"
             />
+            </div>
           </SwiperSlide>
         ))}
       </Swiper>
