@@ -16,22 +16,22 @@ const Navbar = () => {
       <AppLayout>
         <ul className="text-center text-xl px-[20px] shadow-2xl  transition-transform duration-200 transform  ">
           <li className="my-4 py-4 border-black ">
-            <a href="/">Home</a>
+            <a href="/"  onClick={handleClick}>Home</a>
           </li>
           <li className="my-4 py-4 border-black ">
-            <a href="/aboutus">About Us</a>
+            <a href="/aboutus"  onClick={handleClick}>About Us</a>
           </li>
           <li className="my-4 py-4 border-black">
-            <a href="/#pricing">Pricing</a>
+            <a href="/#pricing"  onClick={handleClick}>Pricing</a>
           </li>
           <li className="my-4 py-4 border-black">
-            <a href="#howItWorks">How it Works</a>
+            <a href="#howItWorks"  onClick={handleClick}>How it Works</a>
           </li>
           <li className="my-4 py-4 border-black">
-            <a href="/contactus">Contact Us</a>
+            <a href="/contactus"  onClick={handleClick}>Contact Us</a>
           </li>
           <li className="my-4 py-4 border-black  text-red-500">
-            <a href="/login">Log In </a>
+            <a href="/login"  onClick={handleClick}>Log In </a>
           </li>
         </ul>
       </AppLayout>
