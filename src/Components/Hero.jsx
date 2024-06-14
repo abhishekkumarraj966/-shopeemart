@@ -127,7 +127,7 @@ const Hero = () => {
             <img
               src={image.img}
               alt={image.alt}
-              className="w-full lg:h-[650px]  object-cover rounded-md mb-3 shadow-lg px-2"
+              className="w-full lg:h-[650px]  object-cover rounded-md mb-3 shadow-lg px-[2%]"
             />
             </div>
           </SwiperSlide>
