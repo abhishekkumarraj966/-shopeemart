@@ -29,7 +29,7 @@ const HowItWorks = ({ id }) => {
             <img
               src={img7}
               alt=""
-              className=" absolute  rotate-[320deg] h-[240px] right-[-1px] top-[70px] lg:top-[12px] sm:top-[50px] lg:h-[602px] sm:h-[450px] sm:right-[120px] lg:right-[228px] sm:rotate-[293deg] "
+              className=" absolute  rotate-[320deg] h-[240px] right-[-1px] top-[70px] lg:top-[12px] sm:top-[50px] lg:h-[602px] sm:h-[450px] sm:right-[108px] lg:right-[228px] sm:rotate-[293deg] "
             />
 
             <img
@@ -49,7 +49,7 @@ const HowItWorks = ({ id }) => {
             {/* image which you download is not perfect size fix it size first */}
             <div>
               <img
-                src={img1}
+                src={M3}
                 alt=""
                 className=" h-[200px] sm:w-[300px] sm:h-[300px] lg:w-[400px] lg:h-[400px]  "
               />
@@ -60,21 +60,21 @@ const HowItWorks = ({ id }) => {
               <img
                 src={img6}
                 alt=""
-                className=" h-[100px] sm:w-[250px] sm:h-[200px] lg:w-[320px] lg:h-[320px] "
+                className=" h-[100px]  sm:h-[300px] lg:w-[320px] lg:h-[320px] "
               />
             </div>
             <div>
               <img
-                src={img2}
+                src={M2}
                 alt=""
-                className="h-[200px] sm:w-[300px] sm:h-[300px] lg:w-[400px] lg:h-[400px] "
+                className="h-[200px] sm:w-[300px] sm:h-[300px] lg:w-[400px] lg:h-[400px] sm:pb-8  lg:pb-0"
               />
             </div>
           </div>
           <div className=" flex justify-between mt-[100px] z-10">
             <div>
               <img
-                src={img3}
+                src={M1}
                 alt=""
                 className="h-[200px] sm:w-[300px] sm:h-[300px] lg:w-[400px] lg:h-[400px] "
               />
