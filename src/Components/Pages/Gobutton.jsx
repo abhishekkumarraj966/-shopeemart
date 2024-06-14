@@ -7,7 +7,7 @@ const Gobutton = () => {
   };
   return (
     <div className="sticky top-[85%] bottom-[5%] lg:top-[70%] lg:bottom-[4%] z-50">
-      <img src={arro} alt="" className="sm:ml-[92%] lg:ml-[95%] ml-[85%] sm:h-[60px] sm:w-[60px] w-[60px] h-[60px]  bg-[#fff]  rounded-full " onClick={goToBtn}/>
+      <img src={arro} alt="" className="sm:ml-[92%] lg:ml-[95%] ml-[84%] sm:h-[60px] sm:w-[60px] w-[60px] h-[60px]  bg-[#fff]  rounded-full " onClick={goToBtn}/>
     </div>
   );
 };
