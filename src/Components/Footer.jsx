@@ -13,20 +13,18 @@ const Footer = () => {
         <div class=" pl-10 lg:pt-28 sm:pt-16 pt-8">
           <div className="flex gap-2">
             <a href="https://shopeemart.vercel.app/">
-              <img src={img1} alt="" />
+              <img src={img1} alt=""  className="h-[60%]"/>
             </a>
             <a href="https://shopeemart.vercel.app/">
-              <img src={img2} alt="" />
+              <img src={img2} alt=""  className="h-[60%]"/>
             </a>
             <a href="https://shopeemart.vercel.app/">
-              <img src={img3} alt="" />
+              <img src={img3} alt="" className="h-[60%]" />
             </a>
             <a href="https://shopeemart.vercel.app/">
-              <img src={img4} alt="" />
+              <img src={img4} alt="" className="h-[60%]"/>
             </a>
-            <a href="https://shopeemart.vercel.app/">
-              <img src={img5} alt="" />
-            </a>
+           
           </div>
         </div>
         <div class="">

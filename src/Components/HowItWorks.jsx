@@ -1,13 +1,10 @@
 import React from "react";
-import img1 from "./assites/1.png";
-import img2 from "./assites/2.png";
-import img3 from "./assites/3.png";
+
 import img4 from "./assites/4.png";
 import img5 from "./assites/5.png";
 import img6 from "./assites/6.png";
 import img7 from "./assites/7.png";
 
-// Phone view
 import M1 from "./assites/MbW1.png";
 import M2 from "./assites/MbW2.png";
 import M3 from "./assites/MbW3.png";

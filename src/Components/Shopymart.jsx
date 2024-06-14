@@ -38,12 +38,12 @@ const Shopymart = () => {
                 </p>
                 <div className="flex pt-10 gap-14">
                   <Link to="/aboutus">
-                    <p className="bg-[#FF0A00]  w-[140px] sm:w-[200px]   rounded-md py-2 px-3 font-medium cursor-pointer">
+                    <p className="bg-[#EF4444]  w-[140px] sm:w-[200px]   rounded-md py-2 px-3 font-medium cursor-pointer">
                       Know More
                     </p>
                   </Link>
                   <Link to="/signeup">
-                    <p className="bg-[#FF0A00]  w-[140px] sm:w-[200px]   rounded-md py-2 px-3 font-medium cursor-pointer">
+                    <p className="bg-[#EF4444]  w-[140px] sm:w-[200px]   rounded-md py-2 px-3 font-medium cursor-pointer">
                       Let's Start
                     </p>
                   </Link>
