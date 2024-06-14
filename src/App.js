@@ -24,17 +24,22 @@ import HowItWorks from "./Components/HowItWorks";
 import Nextsigneup from "./Components/Pages/Nextsigneup";
 import Gobutton from "./Components/Pages/Gobutton";
 import Category from "./Components/Category";
+import DocumentTitleHandler from "./Components/DocumentTitleHandler";
+
 
 function App() {
+
   return (
     <div>
       <BrowserRouter>
         <Navbar />
+        <DocumentTitleHandler/>
         <Routes>
           <Route path="/" exact element={<Layout />} />
 
           <Route path="/contactus" exact element={<Contactus />} />
           <Route path="/aboutus" exact element={<Aboutus />} />
+          
           <Route path="/affilatepg" exact element={<Affilatepg />} />
           <Route path="/careers" exact element={<Careers />} />
           <Route path="/testimonials" exact element={<Testimonials />} />
