@@ -57,7 +57,7 @@ function App() {
               exact
               element={<Termsconditions />}
             />
-            <Route path="/blogpg" exact element={<Blogspg />} />
+            <Route path="/blogpg/:id" exact element={<Blogspg />} />
 
             <Route path="/login" exact element={<Login />} />
             <Route path="/signeup" exact element={<Signeup />} />

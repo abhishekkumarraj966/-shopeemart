@@ -28,13 +28,13 @@ const Contactus = () => {
         <img
           src={contactimg}
           alt="Lodinge..."
-          className="w-full h-[150px] sm:h-[300px] shadow-purple-300 mb-5 sm:mb-8"
+          className="w-full h-[150px] sm:h-[300px] lg:h-[90%] shadow-purple-300 mb-5 sm:mb-8"
         />
-        <div class="absolute top-[18%] sm:top-1/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-          <h2 className="text-[#FFF] font-bold text-[25px] sm:text-[38px]">
+        {/* <div class="absolute top-[18%] lg:top-3/4 sm:top-1/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+          <h2 className="text-[#0F0F0F] font-bold text-[25px] sm:text-[38px]">
             Contact Us
           </h2>
-        </div>
+        </div> */}
       </div>
 
       <div className="">

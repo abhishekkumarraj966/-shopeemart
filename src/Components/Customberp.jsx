@@ -1,8 +1,7 @@
 import React from "react";
 import AppLayout from "./AppLayout";
-import bup1 from "./assites/favicon.ico";
+import bup1 from "./assites/favicon.png";
 import dataArray from "./Mock/Bcustomber";
-import { Link } from "react-scroll";
 const Customberp = () => {
   return (
     <div className="my-2 pt-4 mx-auto  h-ful lg:h-[600px]">

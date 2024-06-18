@@ -2,7 +2,7 @@ import React from "react";
 import AppLayout from "../AppLayout";
 import imgAbout from "../assites/About.jpg";
 import { FaRegCircleQuestion } from "react-icons/fa6";
-import SEO from "../SEO/SEO";
+// import SEO from "../SEO/SEO";
 const Aboutus = () => {
   return (
     <div>

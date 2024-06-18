@@ -25,9 +25,9 @@ const Layout = () => {
     <div className="bg-[#FFF]">
       {/* SEO Start */}
       <SEO
-        title="About Bizzata"
-        name="Your Twitter Handle"
-        type="article"
+        title="Bizzata"
+        name="Your Bizzata"
+        type="Home"
         keyword=" BIZZATA, local search, travel, grocery, medicines, hotels, events, search plus services, local businesses, online yellow pages, Digital Marketing Agency in indore, India trade directory, city yellow pages, indian search engine, BIZZATA."
         description="BIZZATA, India s No 1 Business search engine, for unisex salon, resturant, interior designer, spa, coaching classes, furniture , computer and laptop, home decore, building material , hardware store, Restaurants, Hotels, Salons, Real Estate, Travel, Healthcare, Education, B2B Businesses and more Find addresses, phone numbers, reviews and ratings, photos, maps of businesses.
 "

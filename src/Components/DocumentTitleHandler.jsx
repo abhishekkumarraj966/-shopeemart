@@ -13,7 +13,7 @@ const DocumentTitleHandler = () => {
         document.title = 'Contact Us';
         break;
       case '/aboutus':
-        document.title = 'Abhishek';
+        document.title = 'About us';
         break;
       case '/affilatepg':
         document.title = 'Affiliate Program';
