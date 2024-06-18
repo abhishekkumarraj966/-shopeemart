@@ -10,6 +10,7 @@ import GetTouch from "./GetTouch";
 import Recentblg from "./Recentblg";
 import { useLocation } from "react-router-dom";
 import HomCategory from "./HomCategory";
+import SEO from "./SEO/SEO";
 const Layout = () => {
   const location = useLocation();
   useEffect(() => {
@@ -22,6 +23,18 @@ const Layout = () => {
   }, [location]);
   return (
     <div className="bg-[#FFF]">
+      {/* SEO Start */}
+      <SEO
+        title="About Bizzata"
+        name="Your Twitter Handle"
+        type="article"
+        keyword=" BIZZATA, local search, travel, grocery, medicines, hotels, events, search plus services, local businesses, online yellow pages, Digital Marketing Agency in indore, India trade directory, city yellow pages, indian search engine, BIZZATA."
+        description="BIZZATA, India s No 1 Business search engine, for unisex salon, resturant, interior designer, spa, coaching classes, furniture , computer and laptop, home decore, building material , hardware store, Restaurants, Hotels, Salons, Real Estate, Travel, Healthcare, Education, B2B Businesses and more Find addresses, phone numbers, reviews and ratings, photos, maps of businesses.
+"
+      />
+    {/* SEO End */}
+
+    {/* HOme page components starts  */}
       <Hero />
       <Customberp />
       <Shopymart />
