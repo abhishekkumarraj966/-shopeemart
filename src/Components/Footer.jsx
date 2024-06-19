@@ -1,9 +1,9 @@
 import React from "react";
-import img1 from "./assites/Fimg.png";
-import img2 from "./assites/Fimg2.png";
-import img3 from "./assites/Fimg3.png";
-import img4 from "./assites/Fimg4.png";
-import img5 from "./assites/Fimg5.png";
+import img1 from "./assites/Fimg2.png";
+import img2 from "./assites/Fimg2.svg";
+import img3 from "./assites/Fimg3.svg";
+import img4 from "./assites/Fimg4.svg";
+
 import { FaArrowCircleRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
 const Footer = () => {
@@ -12,19 +12,19 @@ const Footer = () => {
       <div class="grid lg:grid-cols-5 sm:grid-cols-2 gap-2 mx-4 mb-4">
         <div class=" pl-10 lg:pt-28 sm:pt-16 pt-8">
           <div className="flex gap-2">
-            <a href="https://shopeemart.vercel.app/">
-              <img src={img1} alt=""  className="h-[60%]"/>
-            </a>
-            <a href="https://shopeemart.vercel.app/">
-              <img src={img2} alt=""  className="h-[60%]"/>
-            </a>
-            <a href="https://shopeemart.vercel.app/">
-              <img src={img3} alt="" className="h-[60%]" />
-            </a>
-            <a href="https://shopeemart.vercel.app/">
-              <img src={img4} alt="" className="h-[60%]"/>
-            </a>
            
+            <a href="https://shopeemart.vercel.app/">
+              <img src={img2} alt=""  className="h-[50%] "/>
+            </a>
+            <a href="https://shopeemart.vercel.app/">
+              <img src={img3} alt="" className="h-[50%]" />
+            </a>
+            <a href="https://shopeemart.vercel.app/">
+              <img src={img4} alt="" className="h-[50%]"/>
+            </a>
+            <a href="https://shopeemart.vercel.app/">
+              <img src={img1} alt=""  className="h-[48%] rounded-md "/>
+            </a>
           </div>
         </div>
         <div class="">

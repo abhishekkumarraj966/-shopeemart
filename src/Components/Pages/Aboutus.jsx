@@ -25,11 +25,11 @@ const Aboutus = () => {
           alt="Lodinge..."
           className="w-full h-[130px] sm:h-[250px] shadow-purple-300 mb-5 sm:mb-8"
         />
-        <div class="absolute top-[18%] sm:top-1/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+        {/* <div class="absolute top-[18%]  md:top- sm:top-1/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
           <h2 className="text-white font-bold text-[25px] sm:text-[38px]">
             About Bizzata
           </h2>
-        </div>
+        </div> */}
       </div>
       <AppLayout>
         <div className="">
